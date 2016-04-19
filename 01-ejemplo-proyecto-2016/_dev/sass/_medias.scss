@@ -1,0 +1,47 @@
+@media screen and (max-width: 1170px ) {
+	@import "header/media_1170";
+}
+
+@media screen and (max-width: 960px ) {
+	@import "header/media_960";
+	@import "section_home/media_960"; 
+}
+
+@media screen and (max-width: 767px ) {
+	@import "popups/media_767"; 
+	@import "section_home/media_767"; 
+	@import "section_juego/media_767"; 
+}
+
+
+// @media screen and (max-width: 480px) {
+// 	@import "section_home/media_480";
+// 	@import "section4/media_480";
+// 	@import "pie/media_480";
+// }
+
+@media screen and (max-width: 565px ) {
+	@import "popups/media_565";
+}
+
+@media screen and (max-width: 540px ) {
+	@import "popups/media_540";
+}
+
+@media screen and (max-width: 440px ) {
+	@import "section_juego/media_440";
+}
+
+@media screen and (max-width: 430px ) {
+	@import "popups/media_430";
+	@import "header/media_430";
+}
+
+
+// @media screen and (max-width: 350px ) {
+// 	@import "section_home/media_350";
+// 	@import "section3/media_350";
+// }
+
+
+

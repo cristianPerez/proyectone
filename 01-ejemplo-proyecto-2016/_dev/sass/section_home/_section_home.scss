@@ -1,0 +1,175 @@
+.sectionHome  {
+    position: relative;
+    background: url('../img/patron_fondo.jpg');
+}
+
+.textbckverde {
+	padding: 10px;
+    color: #3C0F7C;
+    font-family: 'robotoregular';
+    font-size: 18px;
+    background: #D9FF00;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -2px;
+}
+
+.bck_cuadro {
+	 width: 90%;
+	 background: url('../img/patron_cuadros.jpg');
+	 max-width: 570px;
+	 margin: 0 auto;
+	 position: relative;
+	 z-index: 1;
+	 padding: 30px;
+	 text-align: center;
+	 margin-top: -20px;
+
+	 &:before {
+	 	content: "";
+	    width: 55px;
+	    height: 120px;
+	    background: url("../img/cinta_left_g.png");
+	    background-size: contain;
+	    position: absolute;
+	    left: -24px;
+	    top: 15px;
+	 }
+
+	 &:after {
+	 	content: "";
+	    width: 55px;
+	    height: 120px;
+	    background: url("../img/cinta_right_g.png");
+	    background-size: contain;
+	    position: absolute;
+	    right: -24px;
+	    top: 15px;
+	 }
+}
+
+.text_cuadricula {
+	font-size: 35px;
+	font-family: 'robotoregular';
+	color: #3C0F7C;
+	margin: 0px;
+
+ 	span {
+ 		color: #FF29AB;
+ 	}
+}
+
+.bck_parche {
+	width: 90%;
+    height: 83px;
+    background: url("../img/parche_vio.png");
+    background-size: contain;
+    max-width: 475px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -25px;
+} 
+
+.textbckazul {	
+	padding: 10px 30px 10px 30px;
+    color: #3C0F7C;
+    font-family: 'hero-regular';
+    font-size: 30px;
+    background: #00F6FF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+    top: 10px;
+    cursor: pointer;
+    display: table; 
+    &:before {
+    	content: "";
+	    width: 29px;
+	    height: 48px;
+	    background: url("../img/cinta_left.png") no-repeat;
+	    background-size: contain;
+	    position: absolute;
+	    left: -10px;
+	    top: 8px;
+    }
+
+    &:after {
+    	content: "";
+	    width: 29px;
+	    height: 48px;
+	    background: url("../img/cinta_right.png") no-repeat;
+	    background-size: contain;
+	    position: absolute;
+	    right: -10px;
+	    top: 8px;
+    }
+
+    &:hover {
+        background-color: #3C0F7C;
+        color: #fff;
+    }
+}
+
+.franja {
+	width: 100%;
+    height: 121px;
+    background: url("../img/patron_franja.jpg");
+    background-size: contain;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.productos_nol {
+	width: 100%;
+    height: 308px;
+    background: url("../img/produc_tampones.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-bottom: -80px;
+    top: -100px;
+    background-position: center;
+    z-index: 2;
+}
+
+.hoja_cu {
+	width: 366px;
+    height: 438px;
+    background: url("../img/obj_hoja.png") no-repeat;
+    position: absolute;
+    right: -25px;
+    bottom: 126px;
+    z-index: 0;
+}
+
+.obj_left {
+	width: 200px;
+    height: 261px;
+    background: url("../img/obj1_left.png");
+    background-size: contain;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.obj_right {
+	width: 294px;
+    height: 266px;
+    background: url("../img/obj2_right.png");
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+

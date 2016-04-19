@@ -1,0 +1,693 @@
+.popupsClass{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(#000000, 0.5);
+	width: 100%;
+	overflow: hidden;
+    z-index: 1000;
+}
+
+.popupWhite {
+    background-color: #D9FF00;
+    padding: 20px;
+    color: #3C0F7C; 
+    font-size: 17px;
+}
+
+.popupWrap {
+	position: relative;
+    max-width: 609px;
+    width: 90%;
+    margin: 90px auto ;
+    background: url("../img/patron_fondo.jpg");
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: 'gothamboldregular';
+    font-size: 16px;
+    color: #006CB3;
+    &:before {
+        content: "";
+        position: absolute;
+        left: -66px;
+        top: -65px;
+        width: 363px;
+        height: 479px;
+        background: url("../img/obj_hoja_lightbox.png");
+        z-index: -1;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        right: -27px;
+        width: 45px;
+        height: 194px;
+        background: url("../img/obj_punto_lightbox.png");
+        z-index: 0;
+        top: 48px;
+    }
+}
+
+.closeBtnLb {
+    width: 78px;
+    height: 77px;
+    position: absolute;
+    top: -37px;
+    right: -38px;
+    background: url("../img/bnt_close.png");
+    background-size: contain;
+    cursor: pointer;
+    padding: 0px;
+
+    &:hover {
+        background: url("../img/bnt_close_hover.png");
+        background-size: contain;
+    }
+}
+
+.scrollTop {	
+	position: relative;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.topItem {
+    font-family: 'robotoregular';
+	width: 100%;
+    margin: 6px auto;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+}
+
+.topItem .topItemName, .topItem .topItemScore{
+	display: inline-block;
+    margin: 0px 10px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.topItemName {
+    max-width: 260px;
+    width: 85%;
+    span {
+        color: #e20082;
+        display: inline-block;
+        font-size: 28px;
+        margin: 0 14px;
+        text-align: center;
+    }
+}
+
+.topItemScore {
+    min-width: 120px;
+    text-align: center;
+    @extend .colorPink;
+}
+
+.lbTitle {
+    font-family: 'hero-normal';
+    color: #3C0F7C;
+    font-size: 37px;
+    position: absolute;
+    background-color: #00F7FF;
+    top: -19px;
+    left: -20px;
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+    max-width: 520px;
+    line-height: 38px;
+    p {
+        margin: 0px;
+    }
+}
+
+.inputTxt {
+    border: none;
+    width: 100%;
+    max-width: 377px;
+    height: 45px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    display: block;
+    color: #727272;
+    font-family: 'robotoregular';
+}
+
+.btnCyan {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    background: #64c1db;
+    position: relative;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'gotham_blackregular';
+    height: 45px;
+    line-height: 26px;
+    padding: 8px 26px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 1px 3px 16px 3px rgba(0, 0, 0, 0.2);
+    &:after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #4AA4B9;
+        border-radius: 50%;
+        left: -4px;
+        top: 50%;
+        margin-top: -5px;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: #4AA4B9;
+        border-radius: 50%;
+        right: -4px;
+        top: 50%;
+        margin-top: -5px;
+    }
+    &:hover {
+        &:after, &:before {
+            background: #BC027E;
+        }
+        background: #e20082;
+    }
+    p {
+        margin: 0px;
+    }
+}
+
+.linkPink {
+    color: #3C0F7C;
+    text-decoration: none;
+    font-family: 'robotoregular';
+
+    &:hover {
+       color: #3C0F7C;
+       text-decoration: none; 
+    }
+}
+
+.centerRow {
+    width: 90%;
+    max-width: 468px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.linkPinkWrap {
+    max-width: 650px;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #e20082;
+    padding: 15px;
+    top: -20px;
+}
+
+.newBtnDisplay {
+    display: block;
+    margin: 0 auto;
+    max-width: 177px;
+}
+
+.textoBlanco {
+    color: white;
+    width: 80%;
+    font-family: 'gothamboldregular';
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    line-height: 1;
+    span {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.textWrap {
+    font-family: 'robotoregular';
+    position: relative;
+    margin: 0 auto;
+}
+
+.textWrapM {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.textWrapIngreso {
+    max-width: 373px;
+}
+
+.contain_input {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 377px;
+}
+
+.blueLine {
+    height: 4px;
+    background: #11159A;
+    width: 80%;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.lbDestacadoPink {
+    font-size: 25px;
+    line-height: 1;
+    color: #e20082;
+}
+
+.imgPremio {
+    position: relative;
+    top: 25px;
+    max-width: 326px;
+    width: 100%;
+    height: 125px;
+    margin: 0 auto;
+    background: url('../img/img_premio.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.premioHome {
+    height: 99px;
+    background-position: left;
+    top: -9px;
+    left: -10px;
+    min-width: 142px;
+}
+
+.textoPremio {
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+.slick-prev, .slick-next  {
+    width: 75px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    background-color: #A4CC11;
+    cursor: pointer;
+    padding: 0px;
+    color: white;
+    font-family: 'gotham_blackregular';
+    font-size: 43px;
+    z-index: 10;
+    color: transparent;
+    border: none;
+    &:active, &:focus {
+        outline: none;
+    }
+}
+
+.slick-prev {
+    left: -50px;
+    background: url('../img/arrow_left.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &:hover{
+        background: url('../img/arrow_left_h.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.slick-next {
+    right: -50px;
+    background: url('../img/arrow_right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover{
+        background: url('../img/arrow_right_h.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.slick-slide img {
+    display: initial;
+}
+
+.slick-initialized .slick-slide {
+    overflow: hidden;
+}
+
+.logoNOLimg {
+    position: relative;
+    margin: 0 auto;
+    width: 192px;
+    height: 94px;
+    background: url('../img/logo_nol_nuevo.png');
+}
+
+.imageObstaculos {
+    width: 100%;
+    max-width: 150px;
+    height: 130px;
+    background: url('../img/img_obstacles.png');  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto; 
+}
+
+.imagenPowers {
+    width: 100%;
+    max-width: 330px;
+    height: 66px;
+    background: url('../img/powers.png');  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto; 
+}
+
+.imagePc {
+    width: 100%;
+    max-width: 72px;
+    height: 59px;
+    background: url('../img/lb_pc.png');  
+    margin: 0 auto; 
+}
+
+.imageCel {
+    width: 100%;
+    max-width: 39px;
+    height: 59px;
+    background: url('../img/lb_cel.png');  
+    margin: 0 auto; 
+}
+
+.blueLineV {
+    height: 130px;
+    background: #11159A;
+    width: 4px;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: 13px;
+}
+
+.imagePuntosAcum {
+    width: 100%;
+    max-width: 250px;
+    height: 85px;
+    background: url('../img/img_puntosacum.png');  
+    margin: 0 auto; 
+    position: relative;
+}
+
+.imageLifesWrap {
+    width: 150px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.imgLife {
+    width: 42px;
+    height: 41px;
+    background: url('../img/life.png');  
+    display: inline-block;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+[name="google_conversion_frame"] {
+    position: absolute;
+}
+
+.descriptionPremio {
+    font-size: 25px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 auto;
+    color: #e20082;
+    span {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 144px;
+        height: 118px;
+        background: url('../img/frescura_extrema.png'); 
+        background-size: contain;
+        background-repeat: no-repeat; 
+    }
+}
+
+.lineHeight {
+    line-height: 1;
+}
+
+.logoNOLInst {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 168px;
+}
+
+.btnLogin {
+    width: 90%;
+    max-width: 255px;
+}
+
+.obj_gafas {
+    position: absolute;
+    width: 230px;
+    height: 148px;
+    background: url("../img/obj_gafas_lightbox.png");
+    background-size: contain;
+    bottom: -25px;
+    left: -143px;
+}
+
+.obj_product {
+    position: absolute;
+    width: 230px;
+    height: 253px;
+    background: url("../img/obj_Pro_Tampones_lightbox.png");
+    background-size: contain;
+    bottom: -25px;
+    left: -143px;
+}
+
+.franja_lightbox {
+    width: 114%;
+    height: 121px;
+    background: url("../img/patron_franja.jpg");
+    background-size: contain;
+    position: absolute;
+    bottom: -21px;
+    left: -7%;
+    z-index: -2;
+}
+
+.obj_tampon {
+    position: absolute;
+    width: 94px;
+    height: 161px;
+    background: url("../img/obj_tampon.png");
+    background-size: contain;
+    right: -44px;
+    bottom: -38px;
+}
+
+.obj1_lightbox {
+    position: absolute;
+    width: 132px;
+    height: 356px;
+    background: url("../img/obj1_lightbox.png");
+    background-size: contain;
+    top: 0px;
+    left: -64px;
+    z-index: -3;
+}
+
+.textwrapTrucos {
+    font-family: 'robotoregular';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    span {
+        font-family: 'hero-normal';
+        font-size: 30px;
+       
+    }
+}
+
+.containTexttrucos {
+    background: #9700FF; 
+    color: #fff;
+    padding: 12px;
+    font-size: 17px;
+    line-height: 20px;    
+    margin-bottom: 20px;
+    p {
+        margin: 0px;
+    }
+}
+
+.rowtrucos {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.numTrucos {
+    width: 40px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
+.num2Trucos {
+    width: 50px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -10px;
+}
+
+.containTrucos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.obj_produc2_lb {
+    position: absolute;
+    width: 230px;
+    height: 225px;
+    background: url("../img/obj_Pro2_Tampones_lightbox.png");
+    background-size: contain;
+    bottom: -52px;
+    left: -181px;
+}
+
+.spanTextIndi{
+    color: #FF0094;
+    font-weight: bold;
+}
+
+.numInd {
+    font-size: 30px;
+    background: #fff;
+    padding: 2px;
+}
+
+.imgIndicaciones {
+    width: 90%;
+    max-width: 164px;
+}
+
+.imgIndicacionesManos {
+    width: 90%;
+    max-width: 236px;
+}
+
+.titulo_juego4 {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.lbTitlejuego4 {
+    top: 10px;
+    left: -50px
+}
+
+.textWrap2 {
+    font-family: 'robotoregular';
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagenPremios {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 202px;
+}
+
+.bkgWinners {
+    background: #BDD605;
+}
+
+.imageTop {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 203px;
+    width: 100%;
+}
+
+.newWidth {
+    width: 90%;
+}
+
+.topItemWrap { 
+    .topItem:first-of-type, .topItem:first-of-type + .topItem, .topItem:first-of-type + .topItem + .topItem {
+        background: #BDD605;
+    }
+}
+.textWrapHero {
+    font-family: 'hero-normal';
+    color: #FF29AB;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.spanOpor {
+    background-color: #fff;
+    font-family: 'hero-normal';
+    font-size: 25px;
+    padding-left: 3px;
+    letter-spacing: 2px;
+}
+
+
+.tituloIns {
+    font-family: 'hero-normal';
+    font-size: 28px;
+    color:  #FF0092;
+    line-height: 29px;
+    margin-top: 0;
+}
+
+.lbTitlejuego2 {
+    font-size: 40px;
+    position: relative;
+    left: -35px;
+}

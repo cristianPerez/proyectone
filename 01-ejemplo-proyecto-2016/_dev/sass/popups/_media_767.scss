@@ -1,0 +1,90 @@
+.btnCyan:hover {
+    &:after, &:before { 
+        background: #4AA4B9;
+    }
+    background: #64c1db;
+}
+
+
+/*.popupWrap:before {
+	display: none;
+}*/
+
+.lbTitle {
+    font-size: 27px !important; 
+}
+
+
+.textoPremio {
+    text-align: center;
+}
+
+.slick-prev {
+    width: 50px;
+    height: 50px;
+    &:hover {
+        background: url('../img/arrow_left.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.slick-next {
+    width: 50px;
+    height: 50px;
+    &:hover {
+        background: url('../img/arrow_right.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.blueLineV {
+    display: none;
+}
+
+.imgPremio {
+    top: 0;
+}
+
+.text_cuadricula {
+    font-size: 30px;
+}
+
+.lbTitlejuego4 {
+    font-size: 26px;
+}
+
+.topItemScore {
+    text-align: center !important;
+}
+
+.topItemName span {
+    font-size: 20px;
+    margin: 0 6px;
+    font-weight: bold;
+}
+.popupWrap:before {
+    display: none;
+}
+.popupWrap:after {
+    display: none;
+}
+
+.numTrucos   {
+    float: none;
+    width: 25px;
+}
+
+.num2Trucos  {
+    float: none;
+    width: 35px;
+}
+
+
+.num3Trucos  {
+    float: none;
+    width: 35px;
+}

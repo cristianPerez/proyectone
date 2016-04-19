@@ -1,0 +1,7225 @@
+@charset "UTF-8";
+/*------------------------- Plantilla reset estilos --------------------*/
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 13, ../sass/com/general/_reset_estilos.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 22, ../sass/com/general/_reset_estilos.scss */
+body, html {
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
+  /* Permite centrar elementos con display table */
+  width: 100%;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 36, ../sass/com/general/_reset_estilos.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 41, ../sass/com/general/_reset_estilos.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 50, ../sass/com/general/_reset_estilos.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+/* line 64, ../sass/com/general/_reset_estilos.scss */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 75, ../sass/com/general/_reset_estilos.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 85, ../sass/com/general/_reset_estilos.scss */
+textarea {
+  resize: vertical;
+}
+
+/*------------------------- Plantilla reset estilos --------------------*/
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+/* line 9, ../sass/main.scss */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*! normalize.css v1.1.2 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 11, ../sass/com/general/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+/* line 30, ../sass/com/general/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 43, ../sass/com/general/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+/* line 53, ../sass/com/general/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 68, ../sass/com/general/_normalize.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+/* line 79, ../sass/com/general/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+/* line 91, ../sass/com/general/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 103, ../sass/com/general/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 111, ../sass/com/general/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+/* line 126, ../sass/com/general/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 131, ../sass/com/general/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 136, ../sass/com/general/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 141, ../sass/com/general/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 146, ../sass/com/general/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 151, ../sass/com/general/_normalize.scss */
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+/* line 160, ../sass/com/general/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+/* line 168, ../sass/com/general/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 173, ../sass/com/general/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 181, ../sass/com/general/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+/* line 190, ../sass/com/general/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+/* line 200, ../sass/com/general/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address margins set differently in IE 6/7.
+ */
+/* line 209, ../sass/com/general/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+/* line 218, ../sass/com/general/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 231, ../sass/com/general/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+/* line 241, ../sass/com/general/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+/* line 249, ../sass/com/general/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 259, ../sass/com/general/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 267, ../sass/com/general/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 275, ../sass/com/general/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 279, ../sass/com/general/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+/* line 291, ../sass/com/general/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 298, ../sass/com/general/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+/* line 306, ../sass/com/general/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+/* line 316, ../sass/com/general/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+/* line 331, ../sass/com/general/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 340, ../sass/com/general/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+/* line 352, ../sass/com/general/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+/* line 364, ../sass/com/general/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 372, ../sass/com/general/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+/* line 384, ../sass/com/general/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+/* line 398, ../sass/com/general/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 413, ../sass/com/general/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 425, ../sass/com/general/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/* line 440, ../sass/com/general/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 453, ../sass/com/general/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+/* line 465, ../sass/com/general/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 479, ../sass/com/general/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 491, ../sass/com/general/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+/* line 500, ../sass/com/general/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+/* line 511, ../sass/com/general/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 524, ../sass/com/general/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------- Amor y amistad --------------------*/
+/*------------------------- Amor y amistad --------------------*/
+/* line 48, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-logo_nol {
+  background-image: url('../img/sprites/sprite_1-s1c964b2fa8.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-logo_nol {
+  background-position: 0 0;
+  height: 63px;
+  width: 131px;
+}
+
+/* basic scrollbar styling */
+/* vertical scrollbar */
+/* line 7, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_container {
+  width: auto;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+/* line 14, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_container.mCS_no_scrollbar {
+  margin-right: 0;
+}
+
+/* line 17, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS_disabled > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar,
+.mCS_destroyed > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar {
+  margin-right: 30px;
+  /*margin-right:0px;*/
+}
+
+/* line 23, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCustomScrollBox > .mCSB_scrollTools {
+  /*background:rgba(81,72,156,1);*/
+  background: #FF059C;
+  /*cambiar*/
+  width: 13px;
+  /*cambiar*/
+  /*height:70%;*/
+  /*top:62px;*/
+  height: 100%;
+  max-height: 300px;
+  top: 50px;
+  right: 0;
+}
+
+/* line 36, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_draggerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+}
+
+/* line 44, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+  margin: 20px 0;
+}
+
+/* line 47, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_draggerRail {
+  width: 10px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 55, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_dragger {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+}
+
+/* line 60, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 13px;
+  height: 100%;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* line 67, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown {
+  display: block;
+  position: relative;
+  height: 12px;
+  overflow: hidden;
+  margin: 6px auto;
+  cursor: pointer;
+  /*background-color: #FF00FF;*/
+}
+
+/* line 77, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonDown {
+  top: 100%;
+  margin-top: -40px;
+}
+
+/* horizontal scrollbar */
+/* line 82, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_container {
+  height: auto;
+  margin-right: 0;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+/* line 88, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_container.mCS_no_scrollbar {
+  margin-bottom: 0;
+}
+
+/* line 91, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS_disabled > .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar,
+.mCS_destroyed > .mCSB_horizontal > .mCSB_container.mCS_no_scrollbar {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+/* line 96, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal.mCustomScrollBox > .mCSB_scrollTools {
+  width: 100%;
+  height: 16px;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 105, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools a + .mCSB_draggerContainer {
+  margin: 0 20px;
+}
+
+/* line 108, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+  height: 2px;
+  margin: 7px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 116, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger {
+  width: 30px;
+  height: 100%;
+}
+
+/* line 120, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 4px;
+  margin: 6px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 128, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonRight {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 139, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_horizontal > .mCSB_scrollTools .mCSB_buttonRight {
+  margin-left: -40px;
+  float: right;
+}
+
+/* line 143, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCustomScrollBox {
+  -ms-touch-action: none;
+  /*MSPointer events - direct all pointer events to js*/
+}
+
+/* default scrollbar colors and backgrounds (default theme) */
+/* line 148, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCustomScrollBox > .mCSB_scrollTools {
+  /*cambiar aca*/
+  /*opacity:0.75;*/
+  /*filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+
+/* line 154, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCustomScrollBox:hover > .mCSB_scrollTools {
+  opacity: 1;
+  /*filter:"alpha(opacity=100)"; -ms-filter:"alpha(opacity=100)"; /* old ie */
+}
+
+/* line 158, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_draggerRail {
+  background: #FF059C;
+  /* rgba fallback */
+  /*background:rgba(81,72,156,1);*/
+  /*filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+
+/* line 163, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #43067F;
+  /*cambiar*/
+  /*filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+
+/* line 167, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: #43067F;
+  /*cambiar*/
+  /*filter:"alpha(opacity=85)"; -ms-filter:"alpha(opacity=85)"; /* old ie */
+}
+
+/* line 171, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(255,255,255,0.9);*/
+  /*filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+
+/* line 176, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight {
+  /*background-image:url(../../img/flechas_scroll.png);*/
+  background-repeat: no-repeat;
+  opacity: 1;
+  filter: "alpha(opacity=40)";
+  -ms-filter: "alpha(opacity=40)";
+  /* old ie */
+}
+
+/* line 185, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -15px 2px;
+  /* 
+  sprites locations are 0 0/-16px 0/-32px 0/-48px 0 (light) and -80px 0/-96px 0/-112px 0/-128px 0 (dark) 
+  */
+}
+
+/* line 191, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -15px -9px;
+  /* 
+  sprites locations are 0 -20px/-16px -20px/-32px -20px/-48px -20px (light) and -80px -20px/-96px -20px/-112px -20px/-128px -20px (dark) 
+  */
+}
+
+/* line 197, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: 0 -40px;
+  /* 
+  sprites locations are 0 -40px/-20px -40px/-40px -40px/-60px -40px (light) and -80px -40px/-100px -40px/-120px -40px/-140px -40px (dark) 
+  */
+}
+
+/* line 203, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonRight {
+  background-position: 0 -56px;
+  /* 
+  sprites locations are 0 -56px/-20px -56px/-40px -56px/-60px -56px (light) and -80px -56px/-100px -56px/-120px -56px/-140px -56px (dark) 
+  */
+}
+
+/* line 209, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonUp:hover,
+.mCSB_scrollTools .mCSB_buttonDown:hover,
+.mCSB_scrollTools .mCSB_buttonLeft:hover,
+.mCSB_scrollTools .mCSB_buttonRight:hover {
+  opacity: 0.75;
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+  /* old ie */
+}
+
+/* line 216, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCSB_scrollTools .mCSB_buttonUp:active,
+.mCSB_scrollTools .mCSB_buttonDown:active,
+.mCSB_scrollTools .mCSB_buttonLeft:active,
+.mCSB_scrollTools .mCSB_buttonRight:active {
+  /*opacity:0.9;*/
+  /*filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+
+/*scrollbar themes*/
+/*dark (dark colored scrollbar)*/
+/* line 226, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_draggerRail {
+  /*cambiar dark*/
+  background: #f3f3f3;
+  /* rgba fallback */
+  background: rgba(243, 243, 243, 0);
+}
+
+/* line 231, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #8385c8;
+  /* rgba fallback */
+  background: #8385c8;
+}
+
+/* line 235, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  /*cambiar dark*/
+  background: #8385c8;
+  /* rgba fallback */
+  background: #8385c8;
+}
+
+/* line 242, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(0,0,0,0.9);*/
+}
+
+/* line 246, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -2px 2px;
+}
+
+/* line 250, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -2px -9px;
+}
+
+/* line 253, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -80px -40px;
+}
+
+/* line 256, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -80px -56px;
+}
+
+/*light-2*/
+/* line 260, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 4px;
+  background: #FFFFFF;
+  /* rgba fallback */
+  /*background:rgba(255,255,255,0.1);*/
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+/* line 268, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 4px;
+  background: #6fb3ab;
+  /* rgba fallback */
+  /*background:rgba(255,255,255,0.75);*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 276, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+  height: 4px;
+  margin: 6px 0;
+}
+
+/* line 281, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: #8385c8;
+  /* rgba fallback */
+  background: #8385c8;
+}
+
+/* line 285, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: #6fb3ab;
+}
+
+/* line 288, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-light-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(255,255,255,0.9);*/
+}
+
+/* line 292, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -32px 0;
+}
+
+/* line 295, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -32px -20px;
+}
+
+/* line 298, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -40px -40px;
+}
+
+/* line 301, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-2 > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -40px -56px;
+}
+
+/*dark-2*/
+/* line 305, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 4px;
+  background: #FFFFFF;
+  /* rgba fallback */
+  /*background:rgba(0,0,0,0.1);*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 313, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 4px;
+  background: #1b69e5;
+  /* rgba fallback */
+  /*background:rgba(0,0,0,0.75);*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 321, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+  height: 4px;
+  margin: 6px 0;
+}
+
+/* line 326, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 4px;
+  margin: 6px auto;
+}
+
+/* line 331, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  /*background:rgba(0,0,0,0.85);*/
+  background: #1b69e5;
+}
+
+/* line 335, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(0,0,0,0.9);*/
+}
+
+/* line 339, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -112px 0;
+}
+
+/* line 342, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -112px -20px;
+}
+
+/* line 345, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -120px -40px;
+}
+
+/* line 348, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -120px -56px;
+}
+
+/*light-thick*/
+/* line 352, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 4px;
+  background: #fff;
+  /* rgba fallback */
+  /*background:rgba(255,255,255,0.1);*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 360, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 4px;
+  background: #94cc2b;
+  /* rgba fallback */
+  /*background:rgba(255,255,255,0.75);*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 368, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+  height: 2px;
+  margin: 7px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 376, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 6px;
+  margin: 5px auto;
+}
+
+/* line 381, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: #94cc2b;
+}
+
+/* line 384, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-light-thick > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(255,255,255,0.9);*/
+}
+
+/* line 388, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -16px 0;
+}
+
+/* line 391, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -16px -20px;
+}
+
+/* line 394, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -20px -40px;
+}
+
+/* line 397, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thick > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -20px -56px;
+}
+
+/*dark-thick*/
+/* line 401, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 4px;
+  background: #000;
+  /* rgba fallback */
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 409, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 6px;
+  background: #000;
+  /* rgba fallback */
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 417, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+  height: 4px;
+  margin: 6px 0;
+}
+
+/* line 422, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 6px;
+  margin: 5px auto;
+}
+
+/* line 427, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* line 430, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(0,0,0,0.9);*/
+}
+
+/* line 434, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -96px 0;
+}
+
+/* line 437, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -96px -20px;
+}
+
+/* line 440, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -100px -40px;
+}
+
+/* line 443, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thick > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -100px -56px;
+}
+
+/*light-thin*/
+/* line 447, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thin > .mCSB_scrollTools .mCSB_draggerRail {
+  background: #FFFFFF;
+  /* rgba fallback */
+  /*background:rgba(243,243,243,0);*/
+}
+
+/* line 451, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thin > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 4px;
+  background-color: #e8c624;
+}
+
+/* line 455, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+}
+
+/* line 458, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-light-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 2px;
+  margin: 7px auto;
+}
+
+/*dark-thin*/
+/* line 464, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_draggerRail {
+  background: #000;
+  /* rgba fallback */
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* line 468, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 2px;
+  background: #000;
+  /* rgba fallback */
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* line 473, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_draggerRail {
+  width: 100%;
+}
+
+/* line 476, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin.mCSB_horizontal > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 100%;
+  height: 2px;
+  margin: 7px auto;
+}
+
+/* line 481, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* line 484, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  /*background:rgba(0,0,0,0.9);*/
+}
+
+/* line 488, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -80px 0;
+}
+
+/* line 491, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -80px -20px;
+}
+
+/* line 494, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: -80px -40px;
+}
+
+/* line 497, ../sass/com/general/_jquery.mCustomScrollbar.mod.scss */
+.mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonRight {
+  background-position: -80px -56px;
+}
+
+@font-face {
+  font-family: "gothamboldregular";
+  src: url("../fonts/gothambold-webfont/gothambold-webfont.eot");
+  src: url("../fonts/gothambold-webfont/gothambold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothambold-webfont/gothambold-webfont.woff") format("woff"), url("../fonts/gothambold-webfont/gothambold-webfont.ttf") format("truetype"), url("../fonts/gothambold-webfont/gothambold-webfont.svg#gothamboldregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gotham_blackregular";
+  src: url("../fonts/gotham-black-webfont/gotham-black-webfont.eot");
+  src: url("../fonts/gotham-black-webfont/gotham-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gotham-black-webfont/gotham-black-webfont.woff") format("woff"), url("../fonts/gotham-black-webfont/gotham-black-webfont.ttf") format("truetype"), url("../fonts/gotham-black-webfont/gotham-black-webfont.svg#gotham_blackregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "hero-regular";
+  src: url("../fonts/hero-regular/hero-regular.eot");
+  src: url("../fonts/hero-regular/hero-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/hero-regular/hero-regular.woff") format("woff"), url("../fonts/hero-regular/hero-regular.ttf") format("truetype"), url("../fonts/hero-regular/hero-regular.svg#hero-regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "hero-normal";
+  src: url("../fonts/hero/hero.eot");
+  src: url("../fonts/hero/hero.eot?#iefix") format("embedded-opentype"), url("../fonts/hero/hero.woff") format("woff"), url("../fonts/hero/hero.ttf") format("truetype"), url("../fonts/hero/hero.svg#hero-normal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AmaticBold";
+  src: url("../fonts/amatic-bold-webfont/amatic-bold-webfont.eot");
+  src: url("../fonts/amatic-bold-webfont/amatic-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/amatic-bold-webfont/amatic-bold-webfont.woff") format("woff"), url("../fonts/amatic-bold-webfont/amatic-bold-webfont.ttf") format("truetype"), url("../fonts/amatic-bold-webfont/amatic-bold-webfont.svg#AmaticBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  <div class="combo_box">
+    <select>
+        <option>d├¡a</option>
+        <option>01</option>
+        <option>02</option>
+    </select>
+ </div>  
+.combo_box{
+	image-url arguments:
+	$path: path relative to images directory in config.rb
+	$path-only: if true, will cause only the path to be returned instead of a `url()` function
+	$cache-buster: When set to `false` no cache buster will be used (i.e. `?313420982`)	
+	@include comboBox($ancho:214px,
+					  $alto:22px,
+					  $color_texto:#9900FF,
+					  $imagen_fondo:image-url('bkg_combo_ejemplo.png', false, true));
+}
+*/
+/* line 112, ../sass/com/general/_utilidades.scss */
+.lightbox_wrap {
+  position: relative;
+  width: 100%;
+}
+
+/* line 117, ../sass/com/general/_utilidades.scss */
+.boton {
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* line 121, ../sass/com/general/_utilidades.scss */
+::-moz-selection {
+  background: #8167C1;
+  text-shadow: none;
+}
+
+/* line 125, ../sass/com/general/_utilidades.scss */
+::selection {
+  background: #8167C1;
+  text-shadow: none;
+}
+
+/* line 138, ../sass/com/general/_utilidades.scss */
+p::moz-selection, p::selection,
+span::moz-selection,
+span::selection,
+h1::moz-selection,
+h1::selection,
+h2::moz-selection,
+h2::selection,
+h3::moz-selection,
+h3::selection,
+h4::moz-selection,
+h4::selection,
+h5::moz-selection,
+h5::selection,
+h6::moz-selection,
+h6::selection {
+  color: white;
+  background: #8167C1;
+  text-shadow: none;
+}
+
+/* line 148, ../sass/com/general/_utilidades.scss */
+input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #006CB3 !important;
+}
+/* line 151, ../sass/com/general/_utilidades.scss */
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #006CB3 !important;
+}
+/* line 154, ../sass/com/general/_utilidades.scss */
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #006CB3 !important;
+}
+/* line 157, ../sass/com/general/_utilidades.scss */
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #006CB3 !important;
+}
+
+/* line 163, ../sass/com/general/_utilidades.scss */
+.placeholder {
+  color: #006CB3 !important;
+}
+
+/* line 169, ../sass/com/general/_utilidades.scss */
+.tableCentering > div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  border: solid 0px;
+  display: table;
+  background-color: transparent;
+}
+/* line 178, ../sass/com/general/_utilidades.scss */
+.tableCentering > div > div {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  background-color: transparent;
+}
+
+/* line 191, ../sass/com/general/_utilidades.scss */
+.rightTooltip {
+  display: none;
+  background: none repeat scroll 0 0 #0A4978;
+  border-color: rgba(207, 212, 219, 0.75);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 13px #023A68;
+  min-height: 44px;
+  padding-bottom: 13px;
+  padding-top: 14px;
+  position: absolute;
+  left: 149%;
+  top: -18px;
+  width: 208px;
+  z-index: 30;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 207, ../sass/com/general/_utilidades.scss */
+.rightTooltip:before {
+  content: "";
+  position: absolute;
+  background-color: #0a4978;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  position: absolute;
+  top: 18px;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 219, ../sass/com/general/_utilidades.scss */
+.rightTooltip p {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Tahoma, Verdana, Arial;
+  font-size: 14px;
+  margin-left: 13px;
+  text-align: left;
+  width: 178px;
+}
+
+/* line 231, ../sass/com/general/_utilidades.scss */
+.upperTooltip {
+  display: none;
+  background: none repeat scroll 0 0 #0A4978;
+  border-color: rgba(207, 212, 219, 0.75);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 13px #023A68;
+  min-height: 44px;
+  padding-bottom: 13px;
+  padding-top: 14px;
+  position: absolute;
+  left: 149%;
+  top: -18px;
+  width: 208px;
+  z-index: 30;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  left: 380px;
+  top: -135px;
+  text-align: center;
+}
+/* line 252, ../sass/com/general/_utilidades.scss */
+.upperTooltip:before {
+  content: "";
+  background-color: #0a4978;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  bottom: -10px;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 264, ../sass/com/general/_utilidades.scss */
+.upperTooltip p {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Tahoma, Verdana, Arial;
+  font-size: 14px;
+  margin-left: 13px;
+  text-align: left;
+  width: 178px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize1 {
+  font-size: 1px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize2 {
+  font-size: 2px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize3 {
+  font-size: 3px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize4 {
+  font-size: 4px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize5 {
+  font-size: 5px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize6 {
+  font-size: 6px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize7 {
+  font-size: 7px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize8 {
+  font-size: 8px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize9 {
+  font-size: 9px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize10 {
+  font-size: 10px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize11 {
+  font-size: 11px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize12 {
+  font-size: 12px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize13 {
+  font-size: 13px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize14 {
+  font-size: 14px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize15 {
+  font-size: 15px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize16 {
+  font-size: 16px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize17 {
+  font-size: 17px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize18 {
+  font-size: 18px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize19 {
+  font-size: 19px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize20 {
+  font-size: 20px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize21 {
+  font-size: 21px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize22 {
+  font-size: 22px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize23 {
+  font-size: 23px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize24 {
+  font-size: 24px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize25 {
+  font-size: 25px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize26 {
+  font-size: 26px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize27 {
+  font-size: 27px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize28 {
+  font-size: 28px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize29 {
+  font-size: 29px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize30 {
+  font-size: 30px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize31 {
+  font-size: 31px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize32 {
+  font-size: 32px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize33 {
+  font-size: 33px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize34 {
+  font-size: 34px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize35 {
+  font-size: 35px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize36 {
+  font-size: 36px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize37 {
+  font-size: 37px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize38 {
+  font-size: 38px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize39 {
+  font-size: 39px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize40 {
+  font-size: 40px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize41 {
+  font-size: 41px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize42 {
+  font-size: 42px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize43 {
+  font-size: 43px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize44 {
+  font-size: 44px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize45 {
+  font-size: 45px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize46 {
+  font-size: 46px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize47 {
+  font-size: 47px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize48 {
+  font-size: 48px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize49 {
+  font-size: 49px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize50 {
+  font-size: 50px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize51 {
+  font-size: 51px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize52 {
+  font-size: 52px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize53 {
+  font-size: 53px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize54 {
+  font-size: 54px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize55 {
+  font-size: 55px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize56 {
+  font-size: 56px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize57 {
+  font-size: 57px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize58 {
+  font-size: 58px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize59 {
+  font-size: 59px;
+}
+
+/* line 283, ../sass/com/general/_utilidades.scss */
+.fontSize60 {
+  font-size: 60px;
+}
+
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.2.0");
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 4, ../sass/com/vendor/fontawesome/_core.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, ../sass/com/vendor/fontawesome/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 10, ../sass/com/vendor/fontawesome/_larger.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 11, ../sass/com/vendor/fontawesome/_larger.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 12, ../sass/com/vendor/fontawesome/_larger.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 13, ../sass/com/vendor/fontawesome/_larger.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 3, ../sass/com/vendor/fontawesome/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center;
+}
+
+/* line 4, ../sass/com/vendor/fontawesome/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none;
+}
+/* line 8, ../sass/com/vendor/fontawesome/_list.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 10, ../sass/com/vendor/fontawesome/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center;
+}
+/* line 16, ../sass/com/vendor/fontawesome/_list.scss */
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
+
+/* line 4, ../sass/com/vendor/fontawesome/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+}
+
+/* line 10, ../sass/com/vendor/fontawesome/_bordered-pulled.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 11, ../sass/com/vendor/fontawesome/_bordered-pulled.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 14, ../sass/com/vendor/fontawesome/_bordered-pulled.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+/* line 15, ../sass/com/vendor/fontawesome/_bordered-pulled.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 4, ../sass/com/vendor/fontawesome/_spinning.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 4, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 5, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 6, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 8, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 9, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 14, ../sass/com/vendor/fontawesome/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 4, ../sass/com/vendor/fontawesome/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 12, ../sass/com/vendor/fontawesome/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 18, ../sass/com/vendor/fontawesome/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 19, ../sass/com/vendor/fontawesome/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 20, ../sass/com/vendor/fontawesome/_stacked.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 4, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-glass:before {
+  content: "";
+}
+
+/* line 5, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-music:before {
+  content: "";
+}
+
+/* line 6, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-search:before {
+  content: "";
+}
+
+/* line 7, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-envelope-o:before {
+  content: "";
+}
+
+/* line 8, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-heart:before {
+  content: "";
+}
+
+/* line 9, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-star:before {
+  content: "";
+}
+
+/* line 10, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-star-o:before {
+  content: "";
+}
+
+/* line 11, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-user:before {
+  content: "";
+}
+
+/* line 12, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-film:before {
+  content: "";
+}
+
+/* line 13, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-th-large:before {
+  content: "";
+}
+
+/* line 14, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-th:before {
+  content: "";
+}
+
+/* line 15, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-th-list:before {
+  content: "";
+}
+
+/* line 16, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-check:before {
+  content: "";
+}
+
+/* line 17, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "";
+}
+
+/* line 20, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-search-plus:before {
+  content: "";
+}
+
+/* line 21, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-search-minus:before {
+  content: "";
+}
+
+/* line 22, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-power-off:before {
+  content: "";
+}
+
+/* line 23, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-signal:before {
+  content: "";
+}
+
+/* line 24, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: "";
+}
+
+/* line 26, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-trash-o:before {
+  content: "";
+}
+
+/* line 27, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-home:before {
+  content: "";
+}
+
+/* line 28, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-o:before {
+  content: "";
+}
+
+/* line 29, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-clock-o:before {
+  content: "";
+}
+
+/* line 30, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-road:before {
+  content: "";
+}
+
+/* line 31, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-download:before {
+  content: "";
+}
+
+/* line 32, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: "";
+}
+
+/* line 33, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: "";
+}
+
+/* line 34, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-inbox:before {
+  content: "";
+}
+
+/* line 35, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-play-circle-o:before {
+  content: "";
+}
+
+/* line 36, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "";
+}
+
+/* line 38, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-refresh:before {
+  content: "";
+}
+
+/* line 39, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-list-alt:before {
+  content: "";
+}
+
+/* line 40, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-lock:before {
+  content: "";
+}
+
+/* line 41, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flag:before {
+  content: "";
+}
+
+/* line 42, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-headphones:before {
+  content: "";
+}
+
+/* line 43, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-volume-off:before {
+  content: "";
+}
+
+/* line 44, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-volume-down:before {
+  content: "";
+}
+
+/* line 45, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-volume-up:before {
+  content: "";
+}
+
+/* line 46, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-qrcode:before {
+  content: "";
+}
+
+/* line 47, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-barcode:before {
+  content: "";
+}
+
+/* line 48, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tag:before {
+  content: "";
+}
+
+/* line 49, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tags:before {
+  content: "";
+}
+
+/* line 50, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-book:before {
+  content: "";
+}
+
+/* line 51, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bookmark:before {
+  content: "";
+}
+
+/* line 52, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-print:before {
+  content: "";
+}
+
+/* line 53, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-camera:before {
+  content: "";
+}
+
+/* line 54, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-font:before {
+  content: "";
+}
+
+/* line 55, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bold:before {
+  content: "";
+}
+
+/* line 56, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-italic:before {
+  content: "";
+}
+
+/* line 57, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-text-height:before {
+  content: "";
+}
+
+/* line 58, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-text-width:before {
+  content: "";
+}
+
+/* line 59, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-align-left:before {
+  content: "";
+}
+
+/* line 60, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-align-center:before {
+  content: "";
+}
+
+/* line 61, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-align-right:before {
+  content: "";
+}
+
+/* line 62, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-align-justify:before {
+  content: "";
+}
+
+/* line 63, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-list:before {
+  content: "";
+}
+
+/* line 64, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "";
+}
+
+/* line 66, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-indent:before {
+  content: "";
+}
+
+/* line 67, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-video-camera:before {
+  content: "";
+}
+
+/* line 68, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "";
+}
+
+/* line 71, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pencil:before {
+  content: "";
+}
+
+/* line 72, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-map-marker:before {
+  content: "";
+}
+
+/* line 73, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-adjust:before {
+  content: "";
+}
+
+/* line 74, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tint:before {
+  content: "";
+}
+
+/* line 75, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "";
+}
+
+/* line 77, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-share-square-o:before {
+  content: "";
+}
+
+/* line 78, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-check-square-o:before {
+  content: "";
+}
+
+/* line 79, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrows:before {
+  content: "";
+}
+
+/* line 80, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-step-backward:before {
+  content: "";
+}
+
+/* line 81, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fast-backward:before {
+  content: "";
+}
+
+/* line 82, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-backward:before {
+  content: "";
+}
+
+/* line 83, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-play:before {
+  content: "";
+}
+
+/* line 84, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pause:before {
+  content: "";
+}
+
+/* line 85, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stop:before {
+  content: "";
+}
+
+/* line 86, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-forward:before {
+  content: "";
+}
+
+/* line 87, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fast-forward:before {
+  content: "";
+}
+
+/* line 88, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-step-forward:before {
+  content: "";
+}
+
+/* line 89, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-eject:before {
+  content: "";
+}
+
+/* line 90, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-left:before {
+  content: "";
+}
+
+/* line 91, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-right:before {
+  content: "";
+}
+
+/* line 92, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plus-circle:before {
+  content: "";
+}
+
+/* line 93, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-minus-circle:before {
+  content: "";
+}
+
+/* line 94, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-times-circle:before {
+  content: "";
+}
+
+/* line 95, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-check-circle:before {
+  content: "";
+}
+
+/* line 96, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-question-circle:before {
+  content: "";
+}
+
+/* line 97, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-info-circle:before {
+  content: "";
+}
+
+/* line 98, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-crosshairs:before {
+  content: "";
+}
+
+/* line 99, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-times-circle-o:before {
+  content: "";
+}
+
+/* line 100, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-check-circle-o:before {
+  content: "";
+}
+
+/* line 101, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ban:before {
+  content: "";
+}
+
+/* line 102, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-left:before {
+  content: "";
+}
+
+/* line 103, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-right:before {
+  content: "";
+}
+
+/* line 104, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-up:before {
+  content: "";
+}
+
+/* line 105, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-down:before {
+  content: "";
+}
+
+/* line 106, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "";
+}
+
+/* line 108, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-expand:before {
+  content: "";
+}
+
+/* line 109, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-compress:before {
+  content: "";
+}
+
+/* line 110, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plus:before {
+  content: "";
+}
+
+/* line 111, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-minus:before {
+  content: "";
+}
+
+/* line 112, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-asterisk:before {
+  content: "";
+}
+
+/* line 113, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-exclamation-circle:before {
+  content: "";
+}
+
+/* line 114, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gift:before {
+  content: "";
+}
+
+/* line 115, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-leaf:before {
+  content: "";
+}
+
+/* line 116, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fire:before {
+  content: "";
+}
+
+/* line 117, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-eye:before {
+  content: "";
+}
+
+/* line 118, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-eye-slash:before {
+  content: "";
+}
+
+/* line 119, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "";
+}
+
+/* line 121, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plane:before {
+  content: "";
+}
+
+/* line 122, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-calendar:before {
+  content: "";
+}
+
+/* line 123, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-random:before {
+  content: "";
+}
+
+/* line 124, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-comment:before {
+  content: "";
+}
+
+/* line 125, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-magnet:before {
+  content: "";
+}
+
+/* line 126, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-up:before {
+  content: "";
+}
+
+/* line 127, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-down:before {
+  content: "";
+}
+
+/* line 128, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-retweet:before {
+  content: "";
+}
+
+/* line 129, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-shopping-cart:before {
+  content: "";
+}
+
+/* line 130, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-folder:before {
+  content: "";
+}
+
+/* line 131, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-folder-open:before {
+  content: "";
+}
+
+/* line 132, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrows-v:before {
+  content: "";
+}
+
+/* line 133, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrows-h:before {
+  content: "";
+}
+
+/* line 134, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "";
+}
+
+/* line 136, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-twitter-square:before {
+  content: "";
+}
+
+/* line 137, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-facebook-square:before {
+  content: "";
+}
+
+/* line 138, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-camera-retro:before {
+  content: "";
+}
+
+/* line 139, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-key:before {
+  content: "";
+}
+
+/* line 140, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "";
+}
+
+/* line 142, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-comments:before {
+  content: "";
+}
+
+/* line 143, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: "";
+}
+
+/* line 144, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: "";
+}
+
+/* line 145, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-star-half:before {
+  content: "";
+}
+
+/* line 146, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-heart-o:before {
+  content: "";
+}
+
+/* line 147, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sign-out:before {
+  content: "";
+}
+
+/* line 148, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-linkedin-square:before {
+  content: "";
+}
+
+/* line 149, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-thumb-tack:before {
+  content: "";
+}
+
+/* line 150, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-external-link:before {
+  content: "";
+}
+
+/* line 151, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sign-in:before {
+  content: "";
+}
+
+/* line 152, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-trophy:before {
+  content: "";
+}
+
+/* line 153, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-github-square:before {
+  content: "";
+}
+
+/* line 154, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-upload:before {
+  content: "";
+}
+
+/* line 155, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-lemon-o:before {
+  content: "";
+}
+
+/* line 156, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-phone:before {
+  content: "";
+}
+
+/* line 157, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-square-o:before {
+  content: "";
+}
+
+/* line 158, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bookmark-o:before {
+  content: "";
+}
+
+/* line 159, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-phone-square:before {
+  content: "";
+}
+
+/* line 160, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-twitter:before {
+  content: "";
+}
+
+/* line 161, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-facebook:before {
+  content: "";
+}
+
+/* line 162, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-github:before {
+  content: "";
+}
+
+/* line 163, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-unlock:before {
+  content: "";
+}
+
+/* line 164, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-credit-card:before {
+  content: "";
+}
+
+/* line 165, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rss:before {
+  content: "";
+}
+
+/* line 166, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hdd-o:before {
+  content: "";
+}
+
+/* line 167, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bullhorn:before {
+  content: "";
+}
+
+/* line 168, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bell:before {
+  content: "";
+}
+
+/* line 169, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-certificate:before {
+  content: "";
+}
+
+/* line 170, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hand-o-right:before {
+  content: "";
+}
+
+/* line 171, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hand-o-left:before {
+  content: "";
+}
+
+/* line 172, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hand-o-up:before {
+  content: "";
+}
+
+/* line 173, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hand-o-down:before {
+  content: "";
+}
+
+/* line 174, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+/* line 175, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+/* line 176, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+/* line 177, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+/* line 178, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-globe:before {
+  content: "";
+}
+
+/* line 179, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-wrench:before {
+  content: "";
+}
+
+/* line 180, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tasks:before {
+  content: "";
+}
+
+/* line 181, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-filter:before {
+  content: "";
+}
+
+/* line 182, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-briefcase:before {
+  content: "";
+}
+
+/* line 183, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrows-alt:before {
+  content: "";
+}
+
+/* line 184, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: "";
+}
+
+/* line 186, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: "";
+}
+
+/* line 188, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cloud:before {
+  content: "";
+}
+
+/* line 189, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flask:before {
+  content: "";
+}
+
+/* line 190, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "";
+}
+
+/* line 192, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "";
+}
+
+/* line 194, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paperclip:before {
+  content: "";
+}
+
+/* line 195, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "";
+}
+
+/* line 197, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-square:before {
+  content: "";
+}
+
+/* line 198, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "";
+}
+
+/* line 201, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-list-ul:before {
+  content: "";
+}
+
+/* line 202, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-list-ol:before {
+  content: "";
+}
+
+/* line 203, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-strikethrough:before {
+  content: "";
+}
+
+/* line 204, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-underline:before {
+  content: "";
+}
+
+/* line 205, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-table:before {
+  content: "";
+}
+
+/* line 206, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-magic:before {
+  content: "";
+}
+
+/* line 207, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-truck:before {
+  content: "";
+}
+
+/* line 208, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pinterest:before {
+  content: "";
+}
+
+/* line 209, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pinterest-square:before {
+  content: "";
+}
+
+/* line 210, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-google-plus-square:before {
+  content: "";
+}
+
+/* line 211, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-google-plus:before {
+  content: "";
+}
+
+/* line 212, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-money:before {
+  content: "";
+}
+
+/* line 213, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-caret-down:before {
+  content: "";
+}
+
+/* line 214, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-caret-up:before {
+  content: "";
+}
+
+/* line 215, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-caret-left:before {
+  content: "";
+}
+
+/* line 216, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-caret-right:before {
+  content: "";
+}
+
+/* line 217, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-columns:before {
+  content: "";
+}
+
+/* line 218, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "";
+}
+
+/* line 220, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "";
+}
+
+/* line 222, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "";
+}
+
+/* line 224, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-envelope:before {
+  content: "";
+}
+
+/* line 225, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-linkedin:before {
+  content: "";
+}
+
+/* line 226, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "";
+}
+
+/* line 228, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "";
+}
+
+/* line 230, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "";
+}
+
+/* line 232, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-comment-o:before {
+  content: "";
+}
+
+/* line 233, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-comments-o:before {
+  content: "";
+}
+
+/* line 234, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "";
+}
+
+/* line 236, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sitemap:before {
+  content: "";
+}
+
+/* line 237, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-umbrella:before {
+  content: "";
+}
+
+/* line 238, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "";
+}
+
+/* line 240, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-lightbulb-o:before {
+  content: "";
+}
+
+/* line 241, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-exchange:before {
+  content: "";
+}
+
+/* line 242, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cloud-download:before {
+  content: "";
+}
+
+/* line 243, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cloud-upload:before {
+  content: "";
+}
+
+/* line 244, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-user-md:before {
+  content: "";
+}
+
+/* line 245, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stethoscope:before {
+  content: "";
+}
+
+/* line 246, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-suitcase:before {
+  content: "";
+}
+
+/* line 247, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bell-o:before {
+  content: "";
+}
+
+/* line 248, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-coffee:before {
+  content: "";
+}
+
+/* line 249, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cutlery:before {
+  content: "";
+}
+
+/* line 250, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-text-o:before {
+  content: "";
+}
+
+/* line 251, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-building-o:before {
+  content: "";
+}
+
+/* line 252, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hospital-o:before {
+  content: "";
+}
+
+/* line 253, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ambulance:before {
+  content: "";
+}
+
+/* line 254, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-medkit:before {
+  content: "";
+}
+
+/* line 255, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fighter-jet:before {
+  content: "";
+}
+
+/* line 256, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-beer:before {
+  content: "";
+}
+
+/* line 257, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-h-square:before {
+  content: "";
+}
+
+/* line 258, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plus-square:before {
+  content: "";
+}
+
+/* line 259, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-double-left:before {
+  content: "";
+}
+
+/* line 260, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-double-right:before {
+  content: "";
+}
+
+/* line 261, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-double-up:before {
+  content: "";
+}
+
+/* line 262, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-double-down:before {
+  content: "";
+}
+
+/* line 263, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-left:before {
+  content: "";
+}
+
+/* line 264, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-right:before {
+  content: "";
+}
+
+/* line 265, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-up:before {
+  content: "";
+}
+
+/* line 266, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angle-down:before {
+  content: "";
+}
+
+/* line 267, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-desktop:before {
+  content: "";
+}
+
+/* line 268, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-laptop:before {
+  content: "";
+}
+
+/* line 269, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tablet:before {
+  content: "";
+}
+
+/* line 270, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "";
+}
+
+/* line 272, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-circle-o:before {
+  content: "";
+}
+
+/* line 273, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-quote-left:before {
+  content: "";
+}
+
+/* line 274, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-quote-right:before {
+  content: "";
+}
+
+/* line 275, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-spinner:before {
+  content: "";
+}
+
+/* line 276, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-circle:before {
+  content: "";
+}
+
+/* line 277, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "";
+}
+
+/* line 279, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-github-alt:before {
+  content: "";
+}
+
+/* line 280, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-folder-o:before {
+  content: "";
+}
+
+/* line 281, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-folder-open-o:before {
+  content: "";
+}
+
+/* line 282, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-smile-o:before {
+  content: "";
+}
+
+/* line 283, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-frown-o:before {
+  content: "";
+}
+
+/* line 284, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-meh-o:before {
+  content: "";
+}
+
+/* line 285, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gamepad:before {
+  content: "";
+}
+
+/* line 286, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-keyboard-o:before {
+  content: "";
+}
+
+/* line 287, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flag-o:before {
+  content: "";
+}
+
+/* line 288, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flag-checkered:before {
+  content: "";
+}
+
+/* line 289, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-terminal:before {
+  content: "";
+}
+
+/* line 290, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-code:before {
+  content: "";
+}
+
+/* line 291, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "";
+}
+
+/* line 293, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "";
+}
+
+/* line 296, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-location-arrow:before {
+  content: "";
+}
+
+/* line 297, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-crop:before {
+  content: "";
+}
+
+/* line 298, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-code-fork:before {
+  content: "";
+}
+
+/* line 299, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "";
+}
+
+/* line 301, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-question:before {
+  content: "";
+}
+
+/* line 302, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-info:before {
+  content: "";
+}
+
+/* line 303, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-exclamation:before {
+  content: "";
+}
+
+/* line 304, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-superscript:before {
+  content: "";
+}
+
+/* line 305, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-subscript:before {
+  content: "";
+}
+
+/* line 306, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-eraser:before {
+  content: "";
+}
+
+/* line 307, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-puzzle-piece:before {
+  content: "";
+}
+
+/* line 308, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-microphone:before {
+  content: "";
+}
+
+/* line 309, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-microphone-slash:before {
+  content: "";
+}
+
+/* line 310, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-shield:before {
+  content: "";
+}
+
+/* line 311, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-calendar-o:before {
+  content: "";
+}
+
+/* line 312, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: "";
+}
+
+/* line 313, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rocket:before {
+  content: "";
+}
+
+/* line 314, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-maxcdn:before {
+  content: "";
+}
+
+/* line 315, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: "";
+}
+
+/* line 316, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: "";
+}
+
+/* line 317, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: "";
+}
+
+/* line 318, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: "";
+}
+
+/* line 319, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-html5:before {
+  content: "";
+}
+
+/* line 320, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-css3:before {
+  content: "";
+}
+
+/* line 321, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-anchor:before {
+  content: "";
+}
+
+/* line 322, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-unlock-alt:before {
+  content: "";
+}
+
+/* line 323, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bullseye:before {
+  content: "";
+}
+
+/* line 324, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ellipsis-h:before {
+  content: "";
+}
+
+/* line 325, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ellipsis-v:before {
+  content: "";
+}
+
+/* line 326, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rss-square:before {
+  content: "";
+}
+
+/* line 327, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-play-circle:before {
+  content: "";
+}
+
+/* line 328, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ticket:before {
+  content: "";
+}
+
+/* line 329, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-minus-square:before {
+  content: "";
+}
+
+/* line 330, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-minus-square-o:before {
+  content: "";
+}
+
+/* line 331, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-level-up:before {
+  content: "";
+}
+
+/* line 332, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-level-down:before {
+  content: "";
+}
+
+/* line 333, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-check-square:before {
+  content: "";
+}
+
+/* line 334, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pencil-square:before {
+  content: "";
+}
+
+/* line 335, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-external-link-square:before {
+  content: "";
+}
+
+/* line 336, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-share-square:before {
+  content: "";
+}
+
+/* line 337, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-compass:before {
+  content: "";
+}
+
+/* line 338, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "";
+}
+
+/* line 340, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "";
+}
+
+/* line 342, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "";
+}
+
+/* line 344, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: "";
+}
+
+/* line 346, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gbp:before {
+  content: "";
+}
+
+/* line 347, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "";
+}
+
+/* line 349, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "";
+}
+
+/* line 351, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "";
+}
+
+/* line 355, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "";
+}
+
+/* line 358, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: "";
+}
+
+/* line 360, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "";
+}
+
+/* line 362, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file:before {
+  content: "";
+}
+
+/* line 363, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-text:before {
+  content: "";
+}
+
+/* line 364, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: "";
+}
+
+/* line 365, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: "";
+}
+
+/* line 366, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: "";
+}
+
+/* line 367, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: "";
+}
+
+/* line 368, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: "";
+}
+
+/* line 369, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: "";
+}
+
+/* line 370, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-thumbs-up:before {
+  content: "";
+}
+
+/* line 371, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-thumbs-down:before {
+  content: "";
+}
+
+/* line 372, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-youtube-square:before {
+  content: "";
+}
+
+/* line 373, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-youtube:before {
+  content: "";
+}
+
+/* line 374, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-xing:before {
+  content: "";
+}
+
+/* line 375, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-xing-square:before {
+  content: "";
+}
+
+/* line 376, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-youtube-play:before {
+  content: "";
+}
+
+/* line 377, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dropbox:before {
+  content: "";
+}
+
+/* line 378, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stack-overflow:before {
+  content: "";
+}
+
+/* line 379, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-instagram:before {
+  content: "";
+}
+
+/* line 380, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-flickr:before {
+  content: "";
+}
+
+/* line 381, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-adn:before {
+  content: "";
+}
+
+/* line 382, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bitbucket:before {
+  content: "";
+}
+
+/* line 383, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bitbucket-square:before {
+  content: "";
+}
+
+/* line 384, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tumblr:before {
+  content: "";
+}
+
+/* line 385, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tumblr-square:before {
+  content: "";
+}
+
+/* line 386, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-long-arrow-down:before {
+  content: "";
+}
+
+/* line 387, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-long-arrow-up:before {
+  content: "";
+}
+
+/* line 388, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-long-arrow-left:before {
+  content: "";
+}
+
+/* line 389, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-long-arrow-right:before {
+  content: "";
+}
+
+/* line 390, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-apple:before {
+  content: "";
+}
+
+/* line 391, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-windows:before {
+  content: "";
+}
+
+/* line 392, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-android:before {
+  content: "";
+}
+
+/* line 393, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-linux:before {
+  content: "";
+}
+
+/* line 394, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dribbble:before {
+  content: "";
+}
+
+/* line 395, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-skype:before {
+  content: "";
+}
+
+/* line 396, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-foursquare:before {
+  content: "";
+}
+
+/* line 397, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-trello:before {
+  content: "";
+}
+
+/* line 398, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-female:before {
+  content: "";
+}
+
+/* line 399, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-male:before {
+  content: "";
+}
+
+/* line 400, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-gittip:before {
+  content: "";
+}
+
+/* line 401, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sun-o:before {
+  content: "";
+}
+
+/* line 402, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-moon-o:before {
+  content: "";
+}
+
+/* line 403, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-archive:before {
+  content: "";
+}
+
+/* line 404, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bug:before {
+  content: "";
+}
+
+/* line 405, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-vk:before {
+  content: "";
+}
+
+/* line 406, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-weibo:before {
+  content: "";
+}
+
+/* line 407, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-renren:before {
+  content: "";
+}
+
+/* line 408, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pagelines:before {
+  content: "";
+}
+
+/* line 409, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stack-exchange:before {
+  content: "";
+}
+
+/* line 410, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: "";
+}
+
+/* line 411, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: "";
+}
+
+/* line 412, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "";
+}
+
+/* line 414, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-dot-circle-o:before {
+  content: "";
+}
+
+/* line 415, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-wheelchair:before {
+  content: "";
+}
+
+/* line 416, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-vimeo-square:before {
+  content: "";
+}
+
+/* line 417, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "";
+}
+
+/* line 419, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plus-square-o:before {
+  content: "";
+}
+
+/* line 420, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-space-shuttle:before {
+  content: "";
+}
+
+/* line 421, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-slack:before {
+  content: "";
+}
+
+/* line 422, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-envelope-square:before {
+  content: "";
+}
+
+/* line 423, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-wordpress:before {
+  content: "";
+}
+
+/* line 424, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-openid:before {
+  content: "";
+}
+
+/* line 425, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "";
+}
+
+/* line 428, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "";
+}
+
+/* line 430, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-yahoo:before {
+  content: "";
+}
+
+/* line 431, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-google:before {
+  content: "";
+}
+
+/* line 432, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-reddit:before {
+  content: "";
+}
+
+/* line 433, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-reddit-square:before {
+  content: "";
+}
+
+/* line 434, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: "";
+}
+
+/* line 435, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-stumbleupon:before {
+  content: "";
+}
+
+/* line 436, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-delicious:before {
+  content: "";
+}
+
+/* line 437, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-digg:before {
+  content: "";
+}
+
+/* line 438, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pied-piper:before {
+  content: "";
+}
+
+/* line 439, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: "";
+}
+
+/* line 440, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-drupal:before {
+  content: "";
+}
+
+/* line 441, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-joomla:before {
+  content: "";
+}
+
+/* line 442, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-language:before {
+  content: "";
+}
+
+/* line 443, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-fax:before {
+  content: "";
+}
+
+/* line 444, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-building:before {
+  content: "";
+}
+
+/* line 445, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-child:before {
+  content: "";
+}
+
+/* line 446, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paw:before {
+  content: "";
+}
+
+/* line 447, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-spoon:before {
+  content: "";
+}
+
+/* line 448, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cube:before {
+  content: "";
+}
+
+/* line 449, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cubes:before {
+  content: "";
+}
+
+/* line 450, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-behance:before {
+  content: "";
+}
+
+/* line 451, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-behance-square:before {
+  content: "";
+}
+
+/* line 452, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-steam:before {
+  content: "";
+}
+
+/* line 453, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-steam-square:before {
+  content: "";
+}
+
+/* line 454, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-recycle:before {
+  content: "";
+}
+
+/* line 455, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: "";
+}
+
+/* line 457, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "";
+}
+
+/* line 459, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tree:before {
+  content: "";
+}
+
+/* line 460, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-spotify:before {
+  content: "";
+}
+
+/* line 461, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-deviantart:before {
+  content: "";
+}
+
+/* line 462, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-soundcloud:before {
+  content: "";
+}
+
+/* line 463, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-database:before {
+  content: "";
+}
+
+/* line 464, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-pdf-o:before {
+  content: "";
+}
+
+/* line 465, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-word-o:before {
+  content: "";
+}
+
+/* line 466, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-excel-o:before {
+  content: "";
+}
+
+/* line 467, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: "";
+}
+
+/* line 468, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "";
+}
+
+/* line 471, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "";
+}
+
+/* line 473, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "";
+}
+
+/* line 475, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "";
+}
+
+/* line 477, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-file-code-o:before {
+  content: "";
+}
+
+/* line 478, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-vine:before {
+  content: "";
+}
+
+/* line 479, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-codepen:before {
+  content: "";
+}
+
+/* line 480, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-jsfiddle:before {
+  content: "";
+}
+
+/* line 481, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "";
+}
+
+/* line 486, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-circle-o-notch:before {
+  content: "";
+}
+
+/* line 487, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "";
+}
+
+/* line 489, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: "";
+}
+
+/* line 491, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-git-square:before {
+  content: "";
+}
+
+/* line 492, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-git:before {
+  content: "";
+}
+
+/* line 493, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-hacker-news:before {
+  content: "";
+}
+
+/* line 494, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tencent-weibo:before {
+  content: "";
+}
+
+/* line 495, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-qq:before {
+  content: "";
+}
+
+/* line 496, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "";
+}
+
+/* line 498, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "";
+}
+
+/* line 500, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "";
+}
+
+/* line 502, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-history:before {
+  content: "";
+}
+
+/* line 503, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-circle-thin:before {
+  content: "";
+}
+
+/* line 504, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-header:before {
+  content: "";
+}
+
+/* line 505, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paragraph:before {
+  content: "";
+}
+
+/* line 506, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-sliders:before {
+  content: "";
+}
+
+/* line 507, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-share-alt:before {
+  content: "";
+}
+
+/* line 508, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-share-alt-square:before {
+  content: "";
+}
+
+/* line 509, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bomb:before {
+  content: "";
+}
+
+/* line 510, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "";
+}
+
+/* line 512, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-tty:before {
+  content: "";
+}
+
+/* line 513, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-binoculars:before {
+  content: "";
+}
+
+/* line 514, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-plug:before {
+  content: "";
+}
+
+/* line 515, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-slideshare:before {
+  content: "";
+}
+
+/* line 516, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-twitch:before {
+  content: "";
+}
+
+/* line 517, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-yelp:before {
+  content: "";
+}
+
+/* line 518, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-newspaper-o:before {
+  content: "";
+}
+
+/* line 519, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-wifi:before {
+  content: "";
+}
+
+/* line 520, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-calculator:before {
+  content: "";
+}
+
+/* line 521, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paypal:before {
+  content: "";
+}
+
+/* line 522, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-google-wallet:before {
+  content: "";
+}
+
+/* line 523, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-visa:before {
+  content: "";
+}
+
+/* line 524, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-mastercard:before {
+  content: "";
+}
+
+/* line 525, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-discover:before {
+  content: "";
+}
+
+/* line 526, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-amex:before {
+  content: "";
+}
+
+/* line 527, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-paypal:before {
+  content: "";
+}
+
+/* line 528, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc-stripe:before {
+  content: "";
+}
+
+/* line 529, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bell-slash:before {
+  content: "";
+}
+
+/* line 530, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bell-slash-o:before {
+  content: "";
+}
+
+/* line 531, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-trash:before {
+  content: "";
+}
+
+/* line 532, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-copyright:before {
+  content: "";
+}
+
+/* line 533, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-at:before {
+  content: "";
+}
+
+/* line 534, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-eyedropper:before {
+  content: "";
+}
+
+/* line 535, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-paint-brush:before {
+  content: "";
+}
+
+/* line 536, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-birthday-cake:before {
+  content: "";
+}
+
+/* line 537, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-area-chart:before {
+  content: "";
+}
+
+/* line 538, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-pie-chart:before {
+  content: "";
+}
+
+/* line 539, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-line-chart:before {
+  content: "";
+}
+
+/* line 540, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-lastfm:before {
+  content: "";
+}
+
+/* line 541, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-lastfm-square:before {
+  content: "";
+}
+
+/* line 542, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-off:before {
+  content: "";
+}
+
+/* line 543, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-toggle-on:before {
+  content: "";
+}
+
+/* line 544, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bicycle:before {
+  content: "";
+}
+
+/* line 545, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-bus:before {
+  content: "";
+}
+
+/* line 546, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-ioxhost:before {
+  content: "";
+}
+
+/* line 547, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-angellist:before {
+  content: "";
+}
+
+/* line 548, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-cc:before {
+  content: "";
+}
+
+/* line 549, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "";
+}
+
+/* line 552, ../sass/com/vendor/fontawesome/_icons.scss */
+.fa-meanpath:before {
+  content: "";
+}
+
+/* Slider */
+/* line 3, ../sass/com/vendor/_slick.scss */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 18, ../sass/com/vendor/_slick.scss */
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, ../sass/com/vendor/_slick.scss */
+.slick-list:focus {
+  outline: none;
+}
+/* line 29, ../sass/com/vendor/_slick.scss */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 34, ../sass/com/vendor/_slick.scss */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 43, ../sass/com/vendor/_slick.scss */
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+/* line 49, ../sass/com/vendor/_slick.scss */
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+/* line 55, ../sass/com/vendor/_slick.scss */
+.slick-track:after {
+  clear: both;
+}
+/* line 59, ../sass/com/vendor/_slick.scss */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 63, ../sass/com/vendor/_slick.scss */
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+/* line 67, ../sass/com/vendor/_slick.scss */
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+/* line 70, ../sass/com/vendor/_slick.scss */
+.slick-slide img {
+  display: block;
+}
+/* line 73, ../sass/com/vendor/_slick.scss */
+.slick-slide.slick-loading img {
+  display: none;
+}
+/* line 79, ../sass/com/vendor/_slick.scss */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+/* line 83, ../sass/com/vendor/_slick.scss */
+.slick-initialized .slick-slide {
+  display: block;
+}
+/* line 87, ../sass/com/vendor/_slick.scss */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+/* line 91, ../sass/com/vendor/_slick.scss */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto/roboto-regular.eot");
+  src: url("../fonts/roboto/roboto-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-regular.woff") format("woff"), url("../fonts/roboto/roboto-regular.ttf") format("truetype"), url("../fonts/roboto/roboto-regular.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("fonts/MyriadPro-Regular.eot");
+  src: local("Ôÿ║"), url("../fonts/myriadPro/MyriadPro-Regular.woff") format("woff"), url("../fonts/myriadPro/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/myriadPro/MyriadPro-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 17, ../sass/_generales.scss */
+body {
+  background: url("../img/patron_franja.jpg");
+}
+
+/* line 23, ../sass/_generales.scss */
+.mainWrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 28, ../sass/_generales.scss */
+.width960 {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 34, ../sass/_generales.scss */
+.width1200 {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 41, ../sass/_generales.scss */
+.clear {
+  width: 100%;
+  height: 10px;
+}
+
+/* line 46, ../sass/_generales.scss */
+.width90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 51, ../sass/_generales.scss */
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 56, ../sass/_generales.scss */
+.colorPink, .topItemScore {
+  color: #FF0092;
+}
+
+/* line 59, ../sass/_generales.scss */
+.colorBlue {
+  color: #11159A;
+}
+
+/* line 62, ../sass/_generales.scss */
+.colorPurple {
+  color: purple;
+}
+
+/* line 65, ../sass/_generales.scss */
+.colorYellow {
+  color: yellow;
+}
+
+/* line 71, ../sass/_generales.scss */
+.fontBold {
+  font-family: 'gotham_blackregular';
+}
+
+/* line 75, ../sass/_generales.scss */
+a.logoPortal {
+  float: right;
+  outline: 0;
+  position: relative;
+  bottom: 30px;
+  z-index: 10;
+}
+
+/* line 82, ../sass/_generales.scss */
+a.logoPortal2 {
+  display: none;
+}
+
+/* line 86, ../sass/_generales.scss */
+.noMargin {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 91, ../sass/_generales.scss */
+.msg_error {
+  float: left;
+}
+
+/* line 95, ../sass/_generales.scss */
+.bckverde {
+  background-color: #C0DB00;
+}
+
+/* line 99, ../sass/_generales.scss */
+.padding20 {
+  padding: 20px;
+}
+
+/* line 103, ../sass/_generales.scss */
+.fontroboto {
+  font-family: 'robotoregular';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 1, ../sass/header/_header.scss */
+.menuMobile {
+  display: none;
+}
+
+/* line 5, ../sass/header/_header.scss */
+.logoactividad {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 11, ../sass/header/_header.scss */
+.mainMenu {
+  margin-bottom: -100px;
+}
+/* line 13, ../sass/header/_header.scss */
+.mainMenu ul {
+  list-style: none;
+  margin: -5px auto;
+  display: table;
+  font-family: 'hero-regular';
+}
+/* line 18, ../sass/header/_header.scss */
+.mainMenu ul li {
+  float: left;
+  cursor: pointer;
+  margin: 0px 15px;
+  background: #fff;
+  position: relative;
+  color: #FF29A5;
+  font-size: 15px;
+  height: 32px;
+  line-height: 16px;
+  padding: 8px 16px;
+}
+/* line 30, ../sass/header/_header.scss */
+.mainMenu ul li:hover {
+  color: #3C0F7C;
+}
+/* line 34, ../sass/header/_header.scss */
+.mainMenu ul li p {
+  margin: 0px;
+}
+/* line 38, ../sass/header/_header.scss */
+.mainMenu ul li:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  background: url(../img/cinta_left.png);
+  background-size: contain;
+  left: -9px;
+  top: 6px;
+  margin-top: -5px;
+}
+/* line 49, ../sass/header/_header.scss */
+.mainMenu ul li:after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  background: url(../img/cinta_right.png);
+  background-size: contain;
+  right: -9px;
+  top: 6px;
+  margin-top: -5px;
+}
+/* line 60, ../sass/header/_header.scss */
+.mainMenu ul li.wppLogoACtividad {
+  padding: 0px;
+  border: 0px;
+  height: auto;
+  background: transparent;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+/* line 69, ../sass/header/_header.scss */
+.mainMenu ul li.wppLogoACtividad:before {
+  display: none;
+}
+/* line 72, ../sass/header/_header.scss */
+.mainMenu ul li.wppLogoACtividad:after {
+  display: none;
+}
+/* line 75, ../sass/header/_header.scss */
+.mainMenu ul li.wppLogoACtividad:hover {
+  background: transparent;
+}
+
+/* line 83, ../sass/header/_header.scss */
+.btnT_C {
+  max-width: 150px;
+  height: 41px !important;
+  text-align: center;
+  top: -4px;
+  padding-top: 5px !important;
+  display: none;
+}
+/* line 90, ../sass/header/_header.scss */
+.btnT_C:before {
+  top: 10px !important;
+}
+/* line 94, ../sass/header/_header.scss */
+.btnT_C:after {
+  top: 10px !important;
+}
+
+/* line 99, ../sass/header/_header.scss */
+header {
+  background: url(../img/patron_header.jpg);
+  position: relative;
+  padding-top: 55px;
+  height: 114px;
+  z-index: 10;
+}
+/* line 105, ../sass/header/_header.scss */
+header:after {
+  content: "";
+  position: absolute;
+  background: url(../img/before_header.png);
+  background-repeat: repeat-x;
+  height: 55px;
+  width: 100%;
+  bottom: -55px;
+}
+
+/* line 116, ../sass/header/_header.scss */
+.btnMenu {
+  float: right;
+  height: 50px;
+  width: 50px;
+  background: #e20082;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #BC027E;
+  z-index: 10;
+  right: 10px;
+  top: -30px;
+}
+
+/* line 129, ../sass/header/_header.scss */
+.navMenu .btnMenu span {
+  display: block;
+  border-radius: 2px;
+  height: 4px;
+  width: 30px;
+  left: 50%;
+  margin-left: -15px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+/* line 142, ../sass/_header.scss */
+/* line 146, ../sass/header/_header.scss */
+.navMenu .btnMenu span:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0px;
+  border-radius: 2px;
+  height: 4px;
+  width: 30px;
+  background: #fff;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+/* line 156, ../sass/_header.scss */
+/* line 161, ../sass/header/_header.scss */
+.navMenu .btnMenu span:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  border-radius: 2px;
+  height: 4px;
+  width: 30px;
+  background: #fff;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+/* line 171, ../sass/_header.scss */
+/* line 176, ../sass/header/_header.scss */
+.navMenu .btnMenu.active span {
+  background-color: transparent;
+}
+
+/* line 173, ../sass/_header.scss */
+/* line 180, ../sass/header/_header.scss */
+.navMenu .btnMenu.active span:before {
+  top: 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* line 180, ../sass/_header.scss */
+/* line 188, ../sass/header/_header.scss */
+.navMenu .btnMenu.active span:after {
+  top: 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 196, ../sass/header/_header.scss */
+.imgLogoActividad {
+  position: relative;
+  top: -56px;
+}
+
+/* line 201, ../sass/header/_header.scss */
+.btnPerfil {
+  background: url("../img/img_perfil.png") !important;
+  background-size: contain !important;
+  width: 60px;
+  height: 60px !important;
+  top: -15px;
+}
+/* line 208, ../sass/header/_header.scss */
+.btnPerfil:before {
+  display: none;
+}
+/* line 211, ../sass/header/_header.scss */
+.btnPerfil:after {
+  display: none;
+}
+
+/* line 216, ../sass/header/_header.scss */
+.textperfilMobile {
+  display: none;
+}
+
+/* line 220, ../sass/header/_header.scss */
+.puntos_perfil {
+  position: absolute;
+  width: 160px;
+  background-color: #D9FF00;
+  top: 100px;
+  right: 30px;
+  z-index: 10;
+  text-align: center;
+  font-family: 'robotoregular';
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 20px;
+}
+/* line 234, ../sass/header/_header.scss */
+.puntos_perfil p {
+  margin: 0;
+  font-weight: normal;
+}
+/* line 238, ../sass/header/_header.scss */
+.puntos_perfil p span {
+  font-size: 25px;
+  color: #FF29AB;
+}
+
+/* line 246, ../sass/header/_header.scss */
+#contPerfil {
+  display: none;
+}
+
+/* line 250, ../sass/header/_header.scss */
+.containPuntos {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  margin-bottom: -15px;
+}
+
+/* line 258, ../sass/header/_header.scss */
+.btnclosepuntos {
+  top: -47px !important;
+}
+
+/* line 262, ../sass/header/_header.scss */
+.Btn_T-C {
+  float: left;
+  cursor: pointer;
+  margin: 0px 15px;
+  background: #fff;
+  position: relative;
+  color: #FF29A5;
+  font-size: 15px;
+  height: 32px;
+  line-height: 16px;
+  padding: 8px 16px;
+  z-index: 3;
+}
+/* line 274, ../sass/header/_header.scss */
+.Btn_T-C:hover {
+  color: #3C0F7C;
+}
+/* line 278, ../sass/header/_header.scss */
+.Btn_T-C p {
+  margin: 0px;
+}
+/* line 282, ../sass/header/_header.scss */
+.Btn_T-C:before {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  background: url(../img/cinta_left.png);
+  background-size: contain;
+  left: -9px;
+  top: 6px;
+  margin-top: -5px;
+}
+/* line 293, ../sass/header/_header.scss */
+.Btn_T-C:after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 18px;
+  background: url(../img/cinta_right.png);
+  background-size: contain;
+  right: -9px;
+  top: 6px;
+  margin-top: -5px;
+}
+
+/* line 1, ../sass/section_home/_section_home.scss */
+.sectionHome {
+  position: relative;
+  background: url("../img/patron_fondo.jpg");
+}
+
+/* line 6, ../sass/section_home/_section_home.scss */
+.textbckverde {
+  padding: 10px;
+  color: #3C0F7C;
+  font-family: 'robotoregular';
+  font-size: 18px;
+  background: #D9FF00;
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -2px;
+}
+
+/* line 21, ../sass/section_home/_section_home.scss */
+.bck_cuadro {
+  width: 90%;
+  background: url("../img/patron_cuadros.jpg");
+  max-width: 570px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  text-align: center;
+  margin-top: -20px;
+}
+/* line 32, ../sass/section_home/_section_home.scss */
+.bck_cuadro:before {
+  content: "";
+  width: 55px;
+  height: 120px;
+  background: url("../img/cinta_left_g.png");
+  background-size: contain;
+  position: absolute;
+  left: -24px;
+  top: 15px;
+}
+/* line 43, ../sass/section_home/_section_home.scss */
+.bck_cuadro:after {
+  content: "";
+  width: 55px;
+  height: 120px;
+  background: url("../img/cinta_right_g.png");
+  background-size: contain;
+  position: absolute;
+  right: -24px;
+  top: 15px;
+}
+
+/* line 55, ../sass/section_home/_section_home.scss */
+.text_cuadricula {
+  font-size: 35px;
+  font-family: 'robotoregular';
+  color: #3C0F7C;
+  margin: 0px;
+}
+/* line 61, ../sass/section_home/_section_home.scss */
+.text_cuadricula span {
+  color: #FF29AB;
+}
+
+/* line 66, ../sass/section_home/_section_home.scss */
+.bck_parche {
+  width: 90%;
+  height: 83px;
+  background: url("../img/parche_vio.png");
+  background-size: contain;
+  max-width: 475px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding: 1px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  margin-top: -25px;
+}
+
+/* line 82, ../sass/section_home/_section_home.scss */
+.textbckazul {
+  padding: 10px 30px 10px 30px;
+  color: #3C0F7C;
+  font-family: 'hero-regular';
+  font-size: 30px;
+  background: #00F6FF;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  z-index: 3;
+  top: 10px;
+  cursor: pointer;
+  display: table;
+}
+/* line 96, ../sass/section_home/_section_home.scss */
+.textbckazul:before {
+  content: "";
+  width: 29px;
+  height: 48px;
+  background: url("../img/cinta_left.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -10px;
+  top: 8px;
+}
+/* line 107, ../sass/section_home/_section_home.scss */
+.textbckazul:after {
+  content: "";
+  width: 29px;
+  height: 48px;
+  background: url("../img/cinta_right.png") no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -10px;
+  top: 8px;
+}
+/* line 118, ../sass/section_home/_section_home.scss */
+.textbckazul:hover {
+  background-color: #3C0F7C;
+  color: #fff;
+}
+
+/* line 124, ../sass/section_home/_section_home.scss */
+.franja {
+  width: 100%;
+  height: 121px;
+  background: url("../img/patron_franja.jpg");
+  background-size: contain;
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
+}
+
+/* line 134, ../sass/section_home/_section_home.scss */
+.productos_nol {
+  width: 100%;
+  height: 308px;
+  background: url("../img/produc_tampones.png") no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-bottom: -80px;
+  top: -100px;
+  background-position: center;
+  z-index: 2;
+}
+
+/* line 146, ../sass/section_home/_section_home.scss */
+.hoja_cu {
+  width: 366px;
+  height: 438px;
+  background: url("../img/obj_hoja.png") no-repeat;
+  position: absolute;
+  right: -25px;
+  bottom: 126px;
+  z-index: 0;
+}
+
+/* line 156, ../sass/section_home/_section_home.scss */
+.obj_left {
+  width: 200px;
+  height: 261px;
+  background: url("../img/obj1_left.png");
+  background-size: contain;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+
+/* line 166, ../sass/section_home/_section_home.scss */
+.obj_right {
+  width: 294px;
+  height: 266px;
+  background: url("../img/obj2_right.png");
+  background-size: contain;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+/* line 1, ../sass/section_juego/_section_juego.scss */
+.sectionJuego {
+  display: none;
+}
+
+/* line 5, ../sass/section_juego/_section_juego.scss */
+#gameDiv {
+  height: 100%;
+  max-height: 822px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-size: contain;
+  margin-bottom: -12px;
+  position: relative;
+}
+/* line 18, ../sass/section_juego/_section_juego.scss */
+#gameDiv .contenedorGame {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 26, ../sass/section_juego/_section_juego.scss */
+#gameDivCont {
+  height: 100%;
+  max-height: 822px;
+  width: 60%;
+  margin-bottom: -12px;
+  float: right;
+  position: relative;
+  right: 5%;
+  max-width: 550px;
+  background-color: #00F9FF;
+}
+/* line 36, ../sass/section_juego/_section_juego.scss */
+#gameDivCont:after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  width: 22px;
+  width: 6%;
+  background: url("../img/border_left.png");
+  height: 100%;
+  top: 0;
+  background-size: contain;
+  background-repeat-x: no-repeat;
+}
+/* line 48, ../sass/section_juego/_section_juego.scss */
+#gameDivCont:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 6%;
+  background: url("../img/border_right.png");
+  height: 100%;
+  top: 0;
+  background-size: contain;
+  background-repeat-x: no-repeat;
+}
+
+/* line 63, ../sass/section_juego/_section_juego.scss */
+.leftWrapper {
+  float: left;
+  position: relative;
+  top: 0;
+  width: 40%;
+  height: 100%;
+}
+
+/* line 71, ../sass/section_juego/_section_juego.scss */
+.logoGame img {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  max-width: 400px;
+}
+
+/* line 78, ../sass/section_juego/_section_juego.scss */
+.sectionGameTxt {
+  color: #e20082;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+  font-family: 'gotham_blackregular';
+  margin: 0 auto;
+}
+
+/* line 87, ../sass/section_juego/_section_juego.scss */
+.sectionGameTxt .loguitoNosotras {
+  display: inline-block;
+  width: 45px;
+  height: 37px;
+  background: url("../img/loguito_nosotras.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: -9px;
+  left: -7px;
+  position: relative;
+}
+
+/* line 99, ../sass/section_juego/_section_juego.scss */
+.btnYellow {
+  font-size: 23px;
+  color: #3C0F7C;
+  background: #DCFF00;
+  display: table;
+  width: 100%;
+  max-width: 90px;
+  text-align: center;
+  height: 40px;
+  line-height: 41px;
+  margin: 10px auto;
+  position: relative;
+  z-index: 10;
+  font-family: 'hero-regular';
+  font-weight: bold;
+  top: 5px;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+/* line 117, ../sass/section_juego/_section_juego.scss */
+.btnYellow p {
+  margin: 0px;
+  width: 100%;
+}
+/* line 121, ../sass/section_juego/_section_juego.scss */
+.btnYellow:before {
+  content: "";
+  background: url("../img/cinta_left.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 32px;
+  width: 21px;
+  left: -9px;
+  top: 50%;
+  margin-top: -17px;
+}
+/* line 133, ../sass/section_juego/_section_juego.scss */
+.btnYellow:after {
+  content: "";
+  background: url("../img/cinta_right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 32px;
+  width: 21px;
+  right: -9px;
+  top: 50%;
+  margin-top: -17px;
+}
+/* line 145, ../sass/section_juego/_section_juego.scss */
+.btnYellow:hover {
+  background: #3C0F7C;
+  color: white;
+}
+
+/* line 151, ../sass/section_juego/_section_juego.scss */
+.puntosAcumulados {
+  width: 184px;
+  height: 69px;
+  background: url("../img/ui/img_puntosacum.png");
+  position: relative;
+  margin: 0 auto;
+  padding: 19px 17px 20px 60px;
+  font-size: 23px;
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+/* line 167, ../sass/section_juego/_section_juego.scss */
+.btnSalirJuego {
+  cursor: pointer;
+}
+
+/* line 171, ../sass/section_juego/_section_juego.scss */
+.millasAcumWrap {
+  width: 185px;
+  margin: 0 auto;
+}
+
+/* line 176, ../sass/section_juego/_section_juego.scss */
+.leftContaier {
+  width: 315px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'robotoregular';
+}
+
+/* line 183, ../sass/section_juego/_section_juego.scss */
+.marImage {
+  position: absolute;
+  bottom: 0;
+  width: 240px;
+  height: 43%;
+  background: url("../img/game_mar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* line 196, ../sass/section_juego/_section_juego.scss */
+.tiempoContainer, .puntajeContainer {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px 0px;
+}
+/* line 200, ../sass/section_juego/_section_juego.scss */
+.tiempoContainer p, .puntajeContainer p {
+  margin: 0;
+}
+
+/* line 205, ../sass/section_juego/_section_juego.scss */
+.cyanContGame {
+  background: #00F9FF;
+  display: table;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 5px;
+  font-size: 20px;
+  color: #3C0F7C;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 217, ../sass/section_juego/_section_juego.scss */
+.gameTimeNum {
+  background: #DCFF00;
+  padding: 5px;
+  margin: 7px auto;
+  width: 40px;
+  display: block;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 226, ../sass/section_juego/_section_juego.scss */
+.gameScoreNum {
+  background: white;
+  padding: 5px;
+  margin: 7px auto;
+  display: table;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 234, ../sass/section_juego/_section_juego.scss */
+.imgHeaderGame {
+  background: url("../img/patron_header.jpg");
+  position: absolute;
+  height: 114px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* line 242, ../sass/section_juego/_section_juego.scss */
+.imgHeaderGame:after {
+  content: "";
+  position: absolute;
+  top: 114px;
+  background: url("../img/before_header.png");
+  height: 55px;
+  width: 100%;
+}
+
+/* line 252, ../sass/section_juego/_section_juego.scss */
+.logoGame {
+  position: relative;
+  margin-top: 35px;
+}
+
+/* line 257, ../sass/section_juego/_section_juego.scss */
+.backTampon {
+  position: absolute;
+  background: url("../img/obj_tampon.png");
+  left: 2px;
+  top: 50%;
+  width: 94px;
+  height: 161px;
+  z-index: -1;
+}
+
+/* line 267, ../sass/section_juego/_section_juego.scss */
+.backFlotador {
+  position: absolute;
+  background: url("../img/back_flotador.png");
+  right: -25px;
+  bottom: -28%;
+  width: 90px;
+  height: 93px;
+  z-index: -1;
+}
+
+/* line 277, ../sass/section_juego/_section_juego.scss */
+.backHojita {
+  position: absolute;
+  background: url("../img/back_hojita.png");
+  right: -35px;
+  top: 5%;
+  width: 65px;
+  height: 49px;
+  z-index: -1;
+}
+
+/* line 1, ../sass/toast/_toast.scss */
+.toastWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+}
+/* line 8, ../sass/toast/_toast.scss */
+.toastWrap .popupBtnClose {
+  position: absolute;
+  background-image: url("../img/bnt_close.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 106px;
+  max-height: 106px;
+  cursor: pointer;
+}
+/* line 18, ../sass/toast/_toast.scss */
+.toastWrap .popupBtnClose {
+  top: 18px;
+  right: 0px;
+  width: 15%;
+  height: 55%;
+}
+/* line 25, ../sass/toast/_toast.scss */
+.toastWrap .error {
+  background: #3C0F7C;
+  color: #fff;
+}
+/* line 30, ../sass/toast/_toast.scss */
+.toastWrap .success {
+  background: #00F6FF;
+  color: #3C0F7C;
+}
+
+/* line 40, ../sass/toast/_toast.scss */
+.toastMsg {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  display: none;
+  overflow: hidden;
+  font-family: 'robotoregular';
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+}
+/* line 52, ../sass/toast/_toast.scss */
+.toastMsg p {
+  margin: 0 auto;
+  width: 75%;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+/* line 61, ../sass/toast/_toast.scss */
+.wppTextToast {
+  max-width: 960px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: table;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10%;
+}
+
+@media (max-width: 600px) {
+  /* line 76, ../sass/toast/_toast.scss */
+  .toastMsg {
+    font-size: 14px;
+  }
+  /* line 79, ../sass/toast/_toast.scss */
+  .toastMsg p {
+    margin: 0px auto;
+    max-width: 70%;
+  }
+}
+/* line 1, ../sass/popups/_popups.scss */
+.popupsClass {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* line 12, ../sass/popups/_popups.scss */
+.popupWhite {
+  background-color: #D9FF00;
+  padding: 20px;
+  color: #3C0F7C;
+  font-size: 17px;
+}
+
+/* line 19, ../sass/popups/_popups.scss */
+.popupWrap {
+  position: relative;
+  max-width: 609px;
+  width: 90%;
+  margin: 90px auto;
+  background: url("../img/patron_fondo.jpg");
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: 'gothamboldregular';
+  font-size: 16px;
+  color: #006CB3;
+}
+/* line 31, ../sass/popups/_popups.scss */
+.popupWrap:before {
+  content: "";
+  position: absolute;
+  left: -66px;
+  top: -65px;
+  width: 363px;
+  height: 479px;
+  background: url("../img/obj_hoja_lightbox.png");
+  z-index: -1;
+}
+/* line 42, ../sass/popups/_popups.scss */
+.popupWrap:after {
+  content: "";
+  position: absolute;
+  right: -27px;
+  width: 45px;
+  height: 194px;
+  background: url("../img/obj_punto_lightbox.png");
+  z-index: 0;
+  top: 48px;
+}
+
+/* line 54, ../sass/popups/_popups.scss */
+.closeBtnLb {
+  width: 78px;
+  height: 77px;
+  position: absolute;
+  top: -37px;
+  right: -38px;
+  background: url("../img/bnt_close.png");
+  background-size: contain;
+  cursor: pointer;
+  padding: 0px;
+}
+/* line 65, ../sass/popups/_popups.scss */
+.closeBtnLb:hover {
+  background: url("../img/bnt_close_hover.png");
+  background-size: contain;
+}
+
+/* line 71, ../sass/popups/_popups.scss */
+.scrollTop {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 400px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+/* line 81, ../sass/popups/_popups.scss */
+.topItem {
+  font-family: 'robotoregular';
+  width: 100%;
+  margin: 6px auto;
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* line 90, ../sass/popups/_popups.scss */
+.topItem .topItemName, .topItem .topItemScore {
+  display: inline-block;
+  margin: 0px 10px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 100, ../sass/popups/_popups.scss */
+.topItemName {
+  max-width: 260px;
+  width: 85%;
+}
+/* line 103, ../sass/popups/_popups.scss */
+.topItemName span {
+  color: #e20082;
+  display: inline-block;
+  font-size: 28px;
+  margin: 0 14px;
+  text-align: center;
+}
+
+/* line 112, ../sass/popups/_popups.scss */
+.topItemScore {
+  min-width: 120px;
+  text-align: center;
+}
+
+/* line 118, ../sass/popups/_popups.scss */
+.lbTitle {
+  font-family: 'hero-normal';
+  color: #3C0F7C;
+  font-size: 37px;
+  position: absolute;
+  background-color: #00F7FF;
+  top: -19px;
+  left: -20px;
+  font-weight: bold;
+  padding: 0px 15px 0px 15px;
+  max-width: 520px;
+  line-height: 38px;
+}
+/* line 130, ../sass/popups/_popups.scss */
+.lbTitle p {
+  margin: 0px;
+}
+
+/* line 135, ../sass/popups/_popups.scss */
+.inputTxt {
+  border: none;
+  width: 100%;
+  max-width: 377px;
+  height: 45px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2px;
+  display: block;
+  color: #727272;
+  font-family: 'robotoregular';
+}
+
+/* line 149, ../sass/popups/_popups.scss */
+.btnCyan {
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  background: #64c1db;
+  position: relative;
+  color: #fff;
+  font-size: 21px;
+  font-family: 'gotham_blackregular';
+  height: 45px;
+  line-height: 26px;
+  padding: 8px 26px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 1px 3px 16px 3px rgba(0, 0, 0, 0.2);
+}
+/* line 164, ../sass/popups/_popups.scss */
+.btnCyan:after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #4AA4B9;
+  border-radius: 50%;
+  left: -4px;
+  top: 50%;
+  margin-top: -5px;
+}
+/* line 175, ../sass/popups/_popups.scss */
+.btnCyan:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: #4AA4B9;
+  border-radius: 50%;
+  right: -4px;
+  top: 50%;
+  margin-top: -5px;
+}
+/* line 186, ../sass/popups/_popups.scss */
+.btnCyan:hover {
+  background: #e20082;
+}
+/* line 187, ../sass/popups/_popups.scss */
+.btnCyan:hover:after, .btnCyan:hover:before {
+  background: #BC027E;
+}
+/* line 192, ../sass/popups/_popups.scss */
+.btnCyan p {
+  margin: 0px;
+}
+
+/* line 197, ../sass/popups/_popups.scss */
+.linkPink {
+  color: #3C0F7C;
+  text-decoration: none;
+  font-family: 'robotoregular';
+}
+/* line 202, ../sass/popups/_popups.scss */
+.linkPink:hover {
+  color: #3C0F7C;
+  text-decoration: none;
+}
+
+/* line 208, ../sass/popups/_popups.scss */
+.centerRow {
+  width: 90%;
+  max-width: 468px;
+  margin: 0px auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 216, ../sass/popups/_popups.scss */
+.linkPinkWrap {
+  max-width: 650px;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  background-color: #e20082;
+  padding: 15px;
+  top: -20px;
+}
+
+/* line 226, ../sass/popups/_popups.scss */
+.newBtnDisplay {
+  display: block;
+  margin: 0 auto;
+  max-width: 177px;
+}
+
+/* line 232, ../sass/popups/_popups.scss */
+.textoBlanco {
+  color: white;
+  width: 80%;
+  font-family: 'gothamboldregular';
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  line-height: 1;
+}
+/* line 240, ../sass/popups/_popups.scss */
+.textoBlanco span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* line 246, ../sass/popups/_popups.scss */
+.textWrap {
+  font-family: 'robotoregular';
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 252, ../sass/popups/_popups.scss */
+.textWrapM {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 257, ../sass/popups/_popups.scss */
+.textWrapIngreso {
+  max-width: 373px;
+}
+
+/* line 261, ../sass/popups/_popups.scss */
+.contain_input {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 377px;
+}
+
+/* line 267, ../sass/popups/_popups.scss */
+.blueLine {
+  height: 4px;
+  background: #11159A;
+  width: 80%;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+/* line 275, ../sass/popups/_popups.scss */
+.lbDestacadoPink {
+  font-size: 25px;
+  line-height: 1;
+  color: #e20082;
+}
+
+/* line 281, ../sass/popups/_popups.scss */
+.imgPremio {
+  position: relative;
+  top: 25px;
+  max-width: 326px;
+  width: 100%;
+  height: 125px;
+  margin: 0 auto;
+  background: url("../img/img_premio.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 294, ../sass/popups/_popups.scss */
+.premioHome {
+  height: 99px;
+  background-position: left;
+  top: -9px;
+  left: -10px;
+  min-width: 142px;
+}
+
+/* line 302, ../sass/popups/_popups.scss */
+.textoPremio {
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 40px;
+}
+
+/* line 309, ../sass/popups/_popups.scss */
+.slick-prev, .slick-next {
+  width: 75px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  background-color: #A4CC11;
+  cursor: pointer;
+  padding: 0px;
+  color: white;
+  font-family: 'gotham_blackregular';
+  font-size: 43px;
+  z-index: 10;
+  color: transparent;
+  border: none;
+}
+/* line 324, ../sass/popups/_popups.scss */
+.slick-prev:active, .slick-prev:focus, .slick-next:active, .slick-next:focus {
+  outline: none;
+}
+
+/* line 329, ../sass/popups/_popups.scss */
+.slick-prev {
+  left: -50px;
+  background: url("../img/arrow_left.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 336, ../sass/popups/_popups.scss */
+.slick-prev:hover {
+  background: url("../img/arrow_left_h.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 343, ../sass/popups/_popups.scss */
+.slick-next {
+  right: -50px;
+  background: url("../img/arrow_right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 350, ../sass/popups/_popups.scss */
+.slick-next:hover {
+  background: url("../img/arrow_right_h.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 357, ../sass/popups/_popups.scss */
+.slick-slide img {
+  display: initial;
+}
+
+/* line 361, ../sass/popups/_popups.scss */
+.slick-initialized .slick-slide {
+  overflow: hidden;
+}
+
+/* line 365, ../sass/popups/_popups.scss */
+.logoNOLimg {
+  position: relative;
+  margin: 0 auto;
+  width: 192px;
+  height: 94px;
+  background: url("../img/logo_nol_nuevo.png");
+}
+
+/* line 373, ../sass/popups/_popups.scss */
+.imageObstaculos {
+  width: 100%;
+  max-width: 150px;
+  height: 130px;
+  background: url("../img/img_obstacles.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* line 384, ../sass/popups/_popups.scss */
+.imagenPowers {
+  width: 100%;
+  max-width: 330px;
+  height: 66px;
+  background: url("../img/powers.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* line 395, ../sass/popups/_popups.scss */
+.imagePc {
+  width: 100%;
+  max-width: 72px;
+  height: 59px;
+  background: url("../img/lb_pc.png");
+  margin: 0 auto;
+}
+
+/* line 403, ../sass/popups/_popups.scss */
+.imageCel {
+  width: 100%;
+  max-width: 39px;
+  height: 59px;
+  background: url("../img/lb_cel.png");
+  margin: 0 auto;
+}
+
+/* line 411, ../sass/popups/_popups.scss */
+.blueLineV {
+  height: 130px;
+  background: #11159A;
+  width: 4px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  top: 13px;
+}
+
+/* line 422, ../sass/popups/_popups.scss */
+.imagePuntosAcum {
+  width: 100%;
+  max-width: 250px;
+  height: 85px;
+  background: url("../img/img_puntosacum.png");
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 431, ../sass/popups/_popups.scss */
+.imageLifesWrap {
+  width: 150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 437, ../sass/popups/_popups.scss */
+.imgLife {
+  width: 42px;
+  height: 41px;
+  background: url("../img/life.png");
+  display: inline-block;
+}
+
+/* line 444, ../sass/popups/_popups.scss */
+.slick-disabled {
+  display: none !important;
+}
+
+/* line 448, ../sass/popups/_popups.scss */
+[name="google_conversion_frame"] {
+  position: absolute;
+}
+
+/* line 452, ../sass/popups/_popups.scss */
+.descriptionPremio {
+  font-size: 25px;
+  text-align: center;
+  line-height: 1;
+  margin: 0 auto;
+  color: #e20082;
+}
+/* line 458, ../sass/popups/_popups.scss */
+.descriptionPremio span {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 144px;
+  height: 118px;
+  background: url("../img/frescura_extrema.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 471, ../sass/popups/_popups.scss */
+.lineHeight {
+  line-height: 1;
+}
+
+/* line 475, ../sass/popups/_popups.scss */
+.logoNOLInst {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 168px;
+}
+
+/* line 482, ../sass/popups/_popups.scss */
+.btnLogin {
+  width: 90%;
+  max-width: 255px;
+}
+
+/* line 487, ../sass/popups/_popups.scss */
+.obj_gafas {
+  position: absolute;
+  width: 230px;
+  height: 148px;
+  background: url("../img/obj_gafas_lightbox.png");
+  background-size: contain;
+  bottom: -25px;
+  left: -143px;
+}
+
+/* line 497, ../sass/popups/_popups.scss */
+.obj_product {
+  position: absolute;
+  width: 230px;
+  height: 253px;
+  background: url("../img/obj_Pro_Tampones_lightbox.png");
+  background-size: contain;
+  bottom: -25px;
+  left: -143px;
+}
+
+/* line 507, ../sass/popups/_popups.scss */
+.franja_lightbox {
+  width: 114%;
+  height: 121px;
+  background: url("../img/patron_franja.jpg");
+  background-size: contain;
+  position: absolute;
+  bottom: -21px;
+  left: -7%;
+  z-index: -2;
+}
+
+/* line 518, ../sass/popups/_popups.scss */
+.obj_tampon {
+  position: absolute;
+  width: 94px;
+  height: 161px;
+  background: url("../img/obj_tampon.png");
+  background-size: contain;
+  right: -44px;
+  bottom: -38px;
+}
+
+/* line 528, ../sass/popups/_popups.scss */
+.obj1_lightbox {
+  position: absolute;
+  width: 132px;
+  height: 356px;
+  background: url("../img/obj1_lightbox.png");
+  background-size: contain;
+  top: 0px;
+  left: -64px;
+  z-index: -3;
+}
+
+/* line 539, ../sass/popups/_popups.scss */
+.textwrapTrucos {
+  font-family: 'robotoregular';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+}
+/* line 544, ../sass/popups/_popups.scss */
+.textwrapTrucos span {
+  font-family: 'hero-normal';
+  font-size: 30px;
+}
+
+/* line 551, ../sass/popups/_popups.scss */
+.containTexttrucos {
+  background: #9700FF;
+  color: #fff;
+  padding: 12px;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* line 558, ../sass/popups/_popups.scss */
+.containTexttrucos p {
+  margin: 0px;
+}
+
+/* line 563, ../sass/popups/_popups.scss */
+.rowtrucos {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* line 568, ../sass/popups/_popups.scss */
+.numTrucos {
+  width: 40px;
+  height: auto;
+  float: right;
+  position: relative;
+  top: -10px;
+}
+
+/* line 576, ../sass/popups/_popups.scss */
+.num2Trucos {
+  width: 50px;
+  height: auto;
+  float: right;
+  position: relative;
+  top: -10px;
+}
+
+/* line 584, ../sass/popups/_popups.scss */
+.containTrucos {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 589, ../sass/popups/_popups.scss */
+.obj_produc2_lb {
+  position: absolute;
+  width: 230px;
+  height: 225px;
+  background: url("../img/obj_Pro2_Tampones_lightbox.png");
+  background-size: contain;
+  bottom: -52px;
+  left: -181px;
+}
+
+/* line 599, ../sass/popups/_popups.scss */
+.spanTextIndi {
+  color: #FF0094;
+  font-weight: bold;
+}
+
+/* line 604, ../sass/popups/_popups.scss */
+.numInd {
+  font-size: 30px;
+  background: #fff;
+  padding: 2px;
+}
+
+/* line 610, ../sass/popups/_popups.scss */
+.imgIndicaciones {
+  width: 90%;
+  max-width: 164px;
+}
+
+/* line 615, ../sass/popups/_popups.scss */
+.imgIndicacionesManos {
+  width: 90%;
+  max-width: 236px;
+}
+
+/* line 620, ../sass/popups/_popups.scss */
+.titulo_juego4 {
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+
+/* line 626, ../sass/popups/_popups.scss */
+.lbTitlejuego4 {
+  top: 10px;
+  left: -50px;
+}
+
+/* line 631, ../sass/popups/_popups.scss */
+.textWrap2 {
+  font-family: 'robotoregular';
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 637, ../sass/popups/_popups.scss */
+.imagenPremios {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 202px;
+}
+
+/* line 644, ../sass/popups/_popups.scss */
+.bkgWinners {
+  background: #BDD605;
+}
+
+/* line 648, ../sass/popups/_popups.scss */
+.imageTop {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 203px;
+  width: 100%;
+}
+
+/* line 656, ../sass/popups/_popups.scss */
+.newWidth {
+  width: 90%;
+}
+
+/* line 661, ../sass/popups/_popups.scss */
+.topItemWrap .topItem:first-of-type, .topItemWrap .topItem:first-of-type + .topItem, .topItemWrap .topItem:first-of-type + .topItem + .topItem {
+  background: #BDD605;
+}
+
+/* line 665, ../sass/popups/_popups.scss */
+.textWrapHero {
+  font-family: 'hero-normal';
+  color: #FF29AB;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+/* line 672, ../sass/popups/_popups.scss */
+.spanOpor {
+  background-color: #fff;
+  font-family: 'hero-normal';
+  font-size: 25px;
+  padding-left: 3px;
+  letter-spacing: 2px;
+}
+
+/* line 681, ../sass/popups/_popups.scss */
+.tituloIns {
+  font-family: 'hero-normal';
+  font-size: 28px;
+  color: #FF0092;
+  line-height: 29px;
+  margin-top: 0;
+}
+
+/* line 689, ../sass/popups/_popups.scss */
+.lbTitlejuego2 {
+  font-size: 40px;
+  position: relative;
+  left: -35px;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 1, ../sass/header/_media_1170.scss */
+  .wppLogoACtividad {
+    width: 20%;
+  }
+
+  /* line 5, ../sass/header/_media_1170.scss */
+  .containmobil {
+    margin-top: 100px;
+  }
+
+  /* line 9, ../sass/header/_media_1170.scss */
+  .obj_right {
+    top: -89px;
+  }
+
+  /* line 13, ../sass/header/_media_1170.scss */
+  .obj_left {
+    top: 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  /* line 1, ../sass/header/_media_960.scss */
+  .menuMobile {
+    display: block;
+  }
+
+  /* line 4, ../sass/header/_media_960.scss */
+  .mainMenu {
+    position: absolute;
+    z-index: 10;
+    top: 55px;
+    width: 100%;
+    opacity: 0;
+    right: -100%;
+    transition: 1s;
+  }
+  /* line 12, ../sass/header/_media_960.scss */
+  .mainMenu.showMenu {
+    right: 0px;
+    opacity: 1;
+  }
+  /* line 16, ../sass/header/_media_960.scss */
+  .mainMenu ul {
+    width: 100%;
+    padding: 0px;
+  }
+  /* line 19, ../sass/header/_media_960.scss */
+  .mainMenu ul li {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border: 2px solid #BC027E;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 45px;
+  }
+  /* line 30, ../sass/header/_media_960.scss */
+  .mainMenu ul li:hover {
+    color: #FF29A5;
+  }
+  /* line 33, ../sass/header/_media_960.scss */
+  .mainMenu ul li p {
+    margin: 0px;
+  }
+  /* line 36, ../sass/header/_media_960.scss */
+  .mainMenu ul li:before {
+    display: none;
+  }
+  /* line 39, ../sass/header/_media_960.scss */
+  .mainMenu ul li:after {
+    display: none;
+  }
+  /* line 42, ../sass/header/_media_960.scss */
+  .mainMenu ul li.wppLogoACtividad {
+    display: none;
+  }
+
+  /* line 49, ../sass/header/_media_960.scss */
+  header {
+    height: 100px;
+  }
+
+  /* line 53, ../sass/header/_media_960.scss */
+  .imgMobile {
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  /* line 60, ../sass/header/_media_960.scss */
+  .btnTerminos {
+    display: none;
+  }
+
+  /* line 64, ../sass/header/_media_960.scss */
+  a.logoPortal {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+  }
+
+  /* line 71, ../sass/header/_media_960.scss */
+  .logoPortal2 {
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 5%;
+    outline: 0;
+  }
+
+  /* line 78, ../sass/header/_media_960.scss */
+  .hideMobile {
+    display: none;
+  }
+
+  /* line 82, ../sass/header/_media_960.scss */
+  .logoMobil {
+    width: 90%;
+    max-width: 266px;
+    height: 176px;
+    background: url("../img/logo_actividad.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+    top: 45px;
+  }
+
+  /* line 98, ../sass/header/_media_960.scss */
+  .btnT_C {
+    max-width: 100%;
+    height: initial !important;
+    top: initial;
+    padding-top: initial !important;
+    display: block;
+  }
+
+  /* line 107, ../sass/header/_media_960.scss */
+  .textperfilMobile {
+    display: block;
+  }
+
+  /* line 111, ../sass/header/_media_960.scss */
+  .obj_right {
+    top: -162px;
+  }
+
+  /* line 115, ../sass/header/_media_960.scss */
+  .obj_left {
+    top: -36px;
+  }
+
+  /* line 119, ../sass/header/_media_960.scss */
+  .containmobil {
+    margin-bottom: 50px;
+    margin-top: 45px;
+  }
+
+  /* line 124, ../sass/header/_media_960.scss */
+  li.btnPerfil {
+    display: none;
+  }
+
+  /* line 128, ../sass/header/_media_960.scss */
+  .puntos_perfil {
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    top: -25px;
+  }
+
+  /* line 136, ../sass/header/_media_960.scss */
+  .btnclosepuntos {
+    width: 60px;
+    height: 57px;
+    top: -29px !important;
+  }
+
+  /* line 142, ../sass/header/_media_960.scss */
+  .Btn_T-C {
+    display: none;
+  }
+
+  /* line 1, ../sass/section_home/_media_960.scss */
+  .productos_nol {
+    background: url("../img/produc-tampo-2.png") no-repeat;
+    height: 246px;
+    width: 90%;
+    background-size: 100%;
+    max-width: 393px;
+    background-position: center;
+    margin: 0 auto -4%;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1, ../sass/popups/_media_767.scss */
+  .btnCyan:hover {
+    background: #64c1db;
+  }
+  /* line 2, ../sass/popups/_media_767.scss */
+  .btnCyan:hover:after, .btnCyan:hover:before {
+    background: #4AA4B9;
+  }
+
+  /*.popupWrap:before {
+  	display: none;
+  }*/
+  /* line 13, ../sass/popups/_media_767.scss */
+  .lbTitle {
+    font-size: 27px !important;
+  }
+
+  /* line 18, ../sass/popups/_media_767.scss */
+  .textoPremio {
+    text-align: center;
+  }
+
+  /* line 22, ../sass/popups/_media_767.scss */
+  .slick-prev {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 25, ../sass/popups/_media_767.scss */
+  .slick-prev:hover {
+    background: url("../img/arrow_left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* line 33, ../sass/popups/_media_767.scss */
+  .slick-next {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 36, ../sass/popups/_media_767.scss */
+  .slick-next:hover {
+    background: url("../img/arrow_right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* line 44, ../sass/popups/_media_767.scss */
+  .blueLineV {
+    display: none;
+  }
+
+  /* line 48, ../sass/popups/_media_767.scss */
+  .imgPremio {
+    top: 0;
+  }
+
+  /* line 52, ../sass/popups/_media_767.scss */
+  .text_cuadricula {
+    font-size: 30px;
+  }
+
+  /* line 56, ../sass/popups/_media_767.scss */
+  .lbTitlejuego4 {
+    font-size: 26px;
+  }
+
+  /* line 60, ../sass/popups/_media_767.scss */
+  .topItemScore {
+    text-align: center !important;
+  }
+
+  /* line 64, ../sass/popups/_media_767.scss */
+  .topItemName span {
+    font-size: 20px;
+    margin: 0 6px;
+    font-weight: bold;
+  }
+
+  /* line 69, ../sass/popups/_media_767.scss */
+  .popupWrap:before {
+    display: none;
+  }
+
+  /* line 72, ../sass/popups/_media_767.scss */
+  .popupWrap:after {
+    display: none;
+  }
+
+  /* line 76, ../sass/popups/_media_767.scss */
+  .numTrucos {
+    float: none;
+    width: 25px;
+  }
+
+  /* line 81, ../sass/popups/_media_767.scss */
+  .num2Trucos {
+    float: none;
+    width: 35px;
+  }
+
+  /* line 87, ../sass/popups/_media_767.scss */
+  .num3Trucos {
+    float: none;
+    width: 35px;
+  }
+
+  /* line 1, ../sass/section_home/_media_767.scss */
+  .textbckazul:hover {
+    background-color: #00F6FF;
+    color: #3C0F7C;
+  }
+
+  /* line 1, ../sass/section_juego/_media_767.scss */
+  #gameDivCont {
+    width: 100%;
+    max-width: 615px;
+    margin: 0 auto;
+    right: 0;
+    float: none;
+  }
+
+  /* line 9, ../sass/section_juego/_media_767.scss */
+  .leftWrapper {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: initial;
+  }
+
+  /* line 17, ../sass/section_juego/_media_767.scss */
+  .logoGame {
+    display: none;
+  }
+
+  /* line 21, ../sass/section_juego/_media_767.scss */
+  .leftContaier {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    left: 8px;
+  }
+
+  /* line 29, ../sass/section_juego/_media_767.scss */
+  .hideAt767 {
+    display: none;
+  }
+
+  /* line 38, ../sass/section_juego/_media_767.scss */
+  .btnYellow {
+    font-size: 20px;
+    height: 28px;
+    line-height: 27px;
+    top: 6px;
+  }
+  /* line 43, ../sass/section_juego/_media_767.scss */
+  .btnYellow:hover {
+    color: #3C0F7C;
+    background: #DCFF00;
+  }
+}
+@media screen and (max-width: 565px) {
+  /* line 1, ../sass/popups/_media_565.scss */
+  .topItemName {
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  /* line 1, ../sass/popups/_media_540.scss */
+  .bck_parche {
+    width: 95%;
+    background: #AF00FF;
+    margin-top: 10px;
+    padding: 3px;
+    height: auto;
+  }
+
+  /* line 9, ../sass/popups/_media_540.scss */
+  .text_cuadricula {
+    font-size: 23px;
+    margin-top: 19px;
+  }
+
+  /* line 14, ../sass/popups/_media_540.scss */
+  .fontroboto {
+    font-size: 17px;
+  }
+
+  /* line 18, ../sass/popups/_media_540.scss */
+  .textWrapHero {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 440px) {
+  /* line 1, ../sass/section_juego/_media_440.scss */
+  .gameTimeNum, .gameScoreNum {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 430px) {
+  /* line 1, ../sass/popups/_media_430.scss */
+  .text_cuadricula {
+    font-size: 19px;
+    margin-top: 0px;
+  }
+
+  /* line 6, ../sass/popups/_media_430.scss */
+  .textbckazul {
+    font-size: 17px;
+  }
+
+  /* line 10, ../sass/popups/_media_430.scss */
+  .lbTitle {
+    font-size: 19px !important;
+    line-height: 25px;
+  }
+
+  /* line 15, ../sass/popups/_media_430.scss */
+  .bck_cuadro:after {
+    top: 10%;
+  }
+
+  /* line 19, ../sass/popups/_media_430.scss */
+  .bck_cuadro:before {
+    top: 10%;
+  }
+
+  /* line 23, ../sass/popups/_media_430.scss */
+  .bck_cuadro {
+    margin-top: 10px;
+  }
+
+  /* line 27, ../sass/popups/_media_430.scss */
+  .containTexttrucos {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  /* line 31, ../sass/popups/_media_430.scss */
+  .hide430 {
+    display: none;
+  }
+
+  /* line 37, ../sass/popups/_media_430.scss */
+  .productos_nol {
+    height: 190px;
+    margin-bottom: -9%;
+    max-width: 251px;
+  }
+
+  /* line 1, ../sass/header/_media_430.scss */
+  .puntos_perfil {
+    width: 140px;
+    left: -20px;
+    top: -25px;
+  }
+
+  /* line 7, ../sass/header/_media_430.scss */
+  .btnclosepuntos {
+    width: 50px;
+    height: 47px;
+    top: -26px;
+    right: -23px;
+  }
+}
+/*------------------------- Plantillas media queries helper classes --------------------*/
+/** Media queries **/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+/** Fin Media queries**/
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 89, ../sass/com/general/_media_queries.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 96, ../sass/com/general/_media_queries.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 101, ../sass/com/general/_media_queries.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 105, ../sass/com/general/_media_queries.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 113, ../sass/com/general/_media_queries.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 119, ../sass/com/general/_media_queries.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 125, ../sass/com/general/_media_queries.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 129, ../sass/com/general/_media_queries.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 134, ../sass/com/general/_media_queries.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 142, ../sass/com/general/_media_queries.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 149, ../sass/com/general/_media_queries.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 11, ../sass/com/general/_helper_classes.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 19, ../sass/com/general/_helper_classes.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 30, ../sass/com/general/_helper_classes.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 39, ../sass/com/general/_helper_classes.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 55, ../sass/com/general/_helper_classes.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 69, ../sass/com/general/_helper_classes.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 85, ../sass/com/general/_helper_classes.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 91, ../sass/com/general/_helper_classes.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 100, ../sass/com/general/_helper_classes.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/*------------------------- Plantillas media queries helper classes --------------------*/
